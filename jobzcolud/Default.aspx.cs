@@ -13,6 +13,7 @@ namespace jobzcolud
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            ///yuwah
             if (!IsPostBack)
             {
                 if (DBUtilitycs.Server == "")
