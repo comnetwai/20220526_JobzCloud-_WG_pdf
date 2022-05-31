@@ -11,7 +11,7 @@ namespace Service
 {
     public class JC01Login_Class
     {
-        //ooo
+        //waiwai
         public static string DB = "";
         public static string ID = "";
         public static string Get_Password(string contact_email)
