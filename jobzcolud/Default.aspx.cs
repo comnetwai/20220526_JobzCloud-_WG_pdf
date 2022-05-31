@@ -15,6 +15,7 @@ namespace jobzcolud
         {
             ///yuwah
             ///maythu 123456
+            ///khinme
             if (!IsPostBack)
             {
                 if (DBUtilitycs.Server == "")
