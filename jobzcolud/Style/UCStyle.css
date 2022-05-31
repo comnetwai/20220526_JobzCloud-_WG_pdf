@@ -1,0 +1,550 @@
+﻿/***************UC01FusenJouhou************************/
+
+.UC01FusenDiv {
+    position: relative;
+    display: block;
+    border: 3px solid white;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 4px dimgrey;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+    .UC01FusenDiv label {
+        cursor: pointer;
+    }
+
+@media (max-width: 480px) {
+    .UC01FusenDiv {
+        height: 125px;
+        margin: 2px 14px 5px 14px;
+        width: calc(100vw - 130px);
+    }
+}
+
+@media (min-width: 481px) {
+    .UC01FusenDiv {
+        height: 86px;
+        margin: 2px 10px 5px;
+        width: 250px;
+    }
+}
+
+.UC01FusenDetailHideDiv {
+    position: relative;
+    display: block;
+    border: 3px solid white;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 4px dimgrey;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+    .UC01FusenDetailHideDiv label {
+        cursor: pointer;
+    }
+
+@media (max-width: 480px) {
+    .UC01FusenDetailHideDiv {
+        margin: 2px 14px 5px 14px;
+        width: calc(100vw - 130px);
+    }
+}
+
+@media (min-width: 481px) {
+    .UC01FusenDetailHideDiv {
+        width: 250px;
+        height: 45px;
+        margin: 2px 10px 5px;
+    }
+}
+
+.UC01DivHeight {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@media (max-width: 480px) {
+    .UC01DivHeight {
+        height: 30px;
+        line-height: 30px;
+    }
+}
+
+@media (min-width: 481px) {
+    .UC01DivHeight {
+        height: 20px;
+        line-height: 20px;
+    }
+}
+
+.UC01MenuBtn {
+    border: none;
+    width: 21px;
+    float: right;
+}
+
+.UC01AnkenIdLbl {
+    font-size: 10px !important;
+    width: 65px;
+}
+
+@media (max-width: 340px) {
+    .UC01Jikan {
+        width: 55px !important;
+    }
+}
+
+@media (min-width: 341px) and (max-width: 399px) {
+    .UC01Jikan {
+        width: 64px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 480px) {
+    .UC01Jikan {
+        width: 110px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 481px) {
+    .UC01Jikan {
+        width: 98px;
+    }
+}
+
+@media (max-width: 480px) {
+    .UC01Nouki {
+        width: calc(100vw - 430px);
+        margin-left: 52px;
+    }
+}
+
+@media (min-width: 481px) {
+    .UC01Nouki {
+        width: 43px;
+    }
+}
+
+@media (max-width: 480px) {
+    .UC01ImgEigyousha {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+@media (min-width: 481px) {
+    .UC01ImgEigyousha {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .UC01TitleMemo {
+        height: 25px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: calc(100vw - 150px);
+        display: inline-block !important;
+    }
+}
+
+@media (min-width: 481px) {
+    .UC01TitleMemo {
+        width: 238px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .UC01ImgbtnFinishCancel {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+@media (min-width: 481px) {
+    .UC01ImgbtnFinishCancel {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+.UC01ImgbtnNouki {
+    margin-right: 5px;
+}
+
+.UC01ImgbtnSagyouDate {
+    margin-right: 29px;
+}
+
+.UCO1TextColor {
+    color: rgb(155,155,155);
+}
+
+.UC01MenuDiv {
+    display: inline-block;
+}
+
+.UC01MenuRight {
+    float: right;
+}
+
+.UC01SubMenuDiv {
+    z-index: 70 !important;
+    transform: translate3d(-95px,-3px,1px) !important;
+    height: 87px;
+    padding: 3px 0 !important;
+    min-width: 100px !important;
+}
+
+.UC01SubMenuBtn {
+    height: 26px;
+    font-size: 13px;
+    color: rgb(75,75,75) !important;
+}
+
+    .UC01SubMenuBtn:hover {
+        background-color: rgba(235,235,235,0.5);
+    }
+
+.UC01FinishImg {
+    position: absolute;
+    opacity: 0.6;
+}
+
+.UC01DivFinish {
+    width: 82px;
+    margin-left: 130px;
+}
+
+.UC01BtnMargin {
+    margin-left: 7px;
+}
+
+@media (max-width: 480px) {
+    .UC01BtnMargin {
+        width: 22px;
+        height: 22px;
+        margin-left: 3px;
+    }
+}
+
+@media (min-width: 481px) {
+    .UC01BtnMargin {
+        height: 18px;
+    }
+}
+
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+    .UC01ImgBtnSagyousha {
+        margin-top: 2px;
+    }
+}
+
+.UC01FusenColor {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.UC01DivWidth, .UC01SagyoushaDivWidth {
+    vertical-align: top;
+    display: inline-block;
+}
+
+@media (max-width: 480px) {
+    .UC01DivWidth {
+        width: calc(100vw - 260px);
+    }
+}
+
+@media (min-width: 481px) {
+    .UC01DivWidth {
+        width: 130px;
+    }
+}
+
+@media (max-width: 480px) {
+    .UC01SagyoushaDivWidth {
+        width: calc(100% - 113px);
+    }
+}
+
+@media (min-width: 481px) {
+    .UC01SagyoushaDivWidth {
+        width: 130px;
+    }
+}
+
+.UC01SagyoushaWidth {
+    width: 20px;
+    display: inline-block;
+}
+
+.UC01SagyoubiWidth {
+    width: 60px;
+    display: inline-block;
+}
+
+.UC01FusenColorWidth {
+    padding-top: 1px;
+}
+
+@media (max-width: 480px) {
+    .UC01FusenColorWidth {
+        width: calc(100vw - 136px);
+        height: 25px;
+    }
+}
+
+@media (min-width: 481px) {
+    .UC01FusenColorWidth {
+        width: 244px;
+        height: 20px;
+    }
+}
+
+.UC01lblDate {
+    border: 1px solid black;
+    border-radius: 4px;
+    color: white;
+    line-height: 18px;
+    text-align: center;
+    width: 54px;
+    height: 19px;
+    margin-left: 5px;
+}
+
+@media (max-width: 339px) {
+    .UC01lblDate {
+        margin-left: -20px;
+    }
+}
+
+.UC01SagyouDate {
+    border: 1px solid black;
+    border-radius: 4px;
+    color: white;
+    line-height: 18px;
+    text-align: center;
+    width: 54px;
+    height: 19px;
+    margin-right: 29px;
+}
+
+.UC01ImgDelay {
+    margin-left: 5px;
+}
+
+.UC01ImgDelay1 {
+    margin-left: 35px;
+}
+
+.UC01SagyouSha {
+    float: right;
+    margin-right: 3px;
+}
+
+.UC01FinishBtn {
+    margin-left: 2px
+}
+
+.UC01FinishCancelBtn {
+    margin-left: 4px
+}
+
+.UC01TitleHeight {
+    line-height: 1rem;
+    width: calc(100% - 108px);
+}
+
+@media (max-width: 480px) {
+    .UC01MobileStyle {
+        width: calc(100vw - 265px);
+    }
+}
+
+/******** UC02FusenBoard *******/
+.UC02BoardDiv {
+    overflow-y: hidden;
+    background-color: rgb(249, 247, 245);
+    border-radius: 15px;
+    vertical-align: middle;
+    display: inline-block;
+    height: calc(99%);
+    max-height: calc(99%);
+}
+
+@media (max-width: 480px) {
+    .UC02BoardDiv {
+        width: calc(100vw - 102px) !important;
+    }
+}
+
+@media (min-width: 481px) {
+    .UC02BoardDiv {
+        width: 272px;
+    }
+}
+
+.UC02FusentSuikaBtn {
+    display: block !important;
+    height: 30px;
+    border: none;
+    margin-top: 5px;
+    color: rgb(41, 171, 226) !important;
+    background-color: white !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    border-radius: 6px !important;
+}
+
+    .UC02FusentSuikaBtn:hover {
+        background-color: rgb(220,220,220) !important;
+        color: white !important;
+        width: 250px;
+    }
+
+@media (max-width: 480px) {
+    .UC02FusentSuikaBtn {
+        width: calc(100vw - 130px) !important;
+    }
+}
+
+@media (min-width: 481px) {
+    .UC02FusentSuikaBtn {
+        width: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .UC02MobileFusentSuikaBtn {
+        margin-left: 4px;
+    }
+}
+
+.UC02InnerTopDiv {
+    height: 27px;
+}
+
+.UC02FusenJikanDiv {
+    height: 20px;
+    line-height: 20px;
+    margin-top: 2px
+}
+
+.UC02FusenInfoDiv {
+    overflow-y: auto;
+    height: calc(100% - 103px);
+}
+
+.UC02AllFinishBtn {
+    padding: 2px 5px 2px 5px;
+    font-size: 13px;
+    float: right;
+    border-radius: 4px;
+    text-decoration: none !important;
+    margin-top: 2px;
+}
+
+.UC02UserNameDiv {
+    width: calc(100% - 88px);
+    text-align: right;
+}
+
+.UC02UserNameDivWithNoBtn {
+    width: calc(100%);
+    text-align: center;
+}
+
+.UC02FusenTopDiv {
+    margin: 5px 10px;
+}
+
+.UC02NameDiv {
+    vertical-align: middle;
+    line-height: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+.UC02NameLbl {
+    text-align: left;
+    min-width: 50px;
+    max-width: 168px;
+    font-weight: 600;
+}
+
+.UC02NameLblNoWithNoBtn {
+    text-align: left;
+    max-width: 180px;
+    font-weight: 600;
+}
+
+.UC02UserImage {
+    max-height: 25px;
+}
+
+.UC02Favorite {
+    margin: 4px 6px 0px 0px;
+    float: left;
+}
+
+.UC02HatenaImg {
+    margin-left: 9px;
+    margin-top: 2px;
+}
+
+.UC02ImgBtnFilterStyle {
+    vertical-align: middle;
+    height: 21px;
+    width: 20px;
+    float: right;
+    margin: 4px 3px 0 0px;
+}
+
+.UC02ImgBtnOrderChangeStyle {
+    vertical-align: middle;
+    height: 18px;
+    width: 45px;
+    float: right;
+    margin: 2px 3px 0 0;
+}
+
+.PendingBoardDiv {
+    z-index: 13;
+}
+
+.TantouBoardDiv {
+    z-index: 12;
+}
+
+.UC02Pin {
+    margin: 6px 3px 0 0;
+    float: left;
+}
+
+.UC02BtnOrderChange {
+    width: 70px;
+    height: 23px;
+    float: right;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 0;
+    padding: 3.5px 8px;
+    font-size: 13px;
+    background-color: white;
+    border: 0.5px solid #9b9b9b !important;
+    color: rgb(75, 75, 75);
+    border-radius: 4px;
+}
+
+    .UC02BtnOrderChange:hover {
+        background-color: rgba(205,224,255,0.2) !important;
+    }

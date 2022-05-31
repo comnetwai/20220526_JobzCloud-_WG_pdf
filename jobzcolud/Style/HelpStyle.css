@@ -1,0 +1,131 @@
+﻿html, body, p, input[type="button"], input[type="submit"], input[type="reset" ],
+input[type="checkbox" ], input[type="radio" ], input[type="file" ]::-webkit-file-upload-button,
+button, span, label, a {
+    font-family: "Hiragino Sans", "Open Sans", "Meiryo", "Hiragino Kaku Gothic Pro", "メイリオ", "MS ゴシック", "sans-serif";
+}
+
+span, label, p {
+    font-size: 13px;
+    color: rgb(75, 75, 75);
+}
+
+input[type="text"], input[type="number"], input[type="password"], input[type="numeric"], input[type="email"], input[type="tel"], /* textbox */
+input[type="checkbox" ], input[type="radio"], select, textarea, a, button,
+input[type="submit"], input[type="image"], input[type="button"], input[type="file" ]::-webkit-file-upload-button:focus {
+    outline: 0 !important;
+}
+
+.RadiusIframe {
+    border-radius: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th, td {
+    padding: 0px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.HelpBackDiv {
+    background-color: rgb(249, 247, 245);
+}
+
+.HelpDiv {
+    width: 780px;
+    margin: 0 auto;
+    padding-bottom: 35px;
+}
+
+.HelpMenu {
+    height: 40px;
+}
+
+.HelpMenuDiv {
+    padding-bottom: 30px;
+    margin-left: -15px;
+}
+
+.HelpMainDiv {
+    padding: 10px 30px 30px 30px;
+    min-height: 400px;
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+.HelpMenuMargin {
+    margin-left: 30px;
+}
+
+.HelpLinkTbl {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.HelpTitle {
+    margin-bottom: 20px;
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
+
+a {
+    font-size: 13px;
+    color: rgb(75, 75, 75);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: rgb(41, 171, 226);
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+.HelpSecondDiv {
+    margin-top: 120px;
+}
+
+.HelpMenuLabel {
+    font-size: 13px;
+    color: rgb(41, 171, 226) !important;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+    .HelpMenuLabel:hover {
+        text-decoration: none;
+        color: rgb(75, 75, 75) !important;
+    }
+
+.ImgDiv {
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+}
+
+.AboutPlanLicenseBold {
+    font-size: 14px !important;
+    font-weight: bold;
+}
+
+dt, dd {
+    font-size: 13px;
+    color: rgb(75, 75, 75);
+    background-color: transparent;
+    padding-bottom: 5px;
+}
+
+dd {
+    margin-left: 15px;
+}

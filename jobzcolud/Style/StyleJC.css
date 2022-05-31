@@ -1,0 +1,3826 @@
+﻿body {
+    padding: 0 !important;
+    margin: 0 !important;
+    caret-color: transparent;
+}
+
+.JClinkBtPopup {
+    color: #0080C0;
+    cursor:pointer;
+
+}
+
+.JClinkBtPopup:hover {
+    color: red;
+}
+
+.DateLabel {
+    background-color: rgb(255, 255, 255);
+    font-size: 13px;
+    display: inline-block;
+    line-height: 24px;
+    height: 22px;
+    padding: 0px 4px;
+    cursor: pointer;
+}
+
+
+.CrossBtnDate {
+    border: none;
+    color: rgb(100, 100, 100);
+    width: 22px;
+    line-height: 18px;
+    height: 22px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -8px;
+    cursor: pointer;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+    .CrossBtnDate {
+        line-height: 20px;
+    }
+}
+
+.JCSuccess {
+    position: fixed;
+    display: none;
+    height: 30pt;
+    width: 100% !important;
+    top:80px !important;
+    left: 0;
+    background-color: #92d050;
+    align-content: center;
+    align-items: center;
+    border-radius: 7px;
+    padding-left: 10px;
+    margin: 2px;
+    margin-right: 10px !important;
+    z-index:1000;
+}
+/************************************** S00ErrorC *************************************************/
+#err_content p {
+    font-size: 140%;
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(75,75,75);
+}
+
+.title {
+    width: 100%;
+    text-align: left;
+    background-color: #0071BC;
+    color: white;
+    margin-top: -21px;
+}
+
+.header {
+    margin-left: 10px;
+}
+
+.divTopPage {
+    text-align: center;
+}
+
+.lnkbtnTopPage {
+    font-size: 14px;
+    color: rgba(41, 171, 226, 1);
+}
+
+
+/***************************J01Login_ログイン画面*************************************/
+.J01Error {
+    color: rgb(255,0,0);
+    font-size: 11px;
+}
+
+.J01Label {
+    font-size: 14px;
+}
+
+.J01Image {
+    width: 200px !important;
+    height: 156px !important;
+    margin-bottom: 35px !important;
+    margin-top: 10px !important;
+}
+
+.J01lblDisplayMessage {
+    color: rgba(0,113,188,1);
+    font-size: 16px;
+}
+
+.J01LoginLblTitleName {
+    font-size: 30pt;
+    color: rgba(0,113,188,1);
+}
+
+.J01divLogincolumn {
+    /*border-radius: 20px;*/
+    width: 700px !important;
+}
+
+.J01TDLabel {
+    width:130px;
+}
+
+.J01ErrorRow {
+    height: 20px !important;
+}
+
+.J01TextBox {
+    width: 330px !important;
+    max-width: 330px !important;
+    font-size: 10px;
+    height: 38px !important;
+}
+
+.J01BtnLogin {
+    width: 330px !important;
+    max-width: 330px !important;
+    max-height: 40px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    color: rgb(255, 255, 255);
+    background: rgb(91, 155, 213) !important;
+}
+
+.J01LinkButton {
+    font-size: 14px;
+    color: rgba(0,113,188,1) !important;
+    text-decoration: none !important;
+}
+
+.J01PwdResetButton {
+    font-weight: bold;
+}
+
+.J01Body {
+    padding-top: 25px !important;
+    background-color: rgb(236, 241, 248) !important;
+}
+
+.J01BtnLogin[disabled] {
+    background: rgba(41, 171, 226, 0.69) !important;
+}
+
+.J01BtnCreateAcc {
+    width: 330px !important;
+    max-width: 330px !important;
+    max-height: 40px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    text-align: center;
+    border: none;
+    color: rgb(255, 255, 255) !important;
+    background: rgb(237,125,49) !important;
+    font-size: 16px !important;
+}
+
+.J01Height {
+    height: 70px !important;
+}
+
+.J01Table {
+    margin-left:35px;
+}
+
+.J01divContainer {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 1px;
+}
+
+/***************************J02Touroku_登録画面*************************************/
+
+.J02Form {
+    margin-left: -8px;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgb(236, 241, 248) !important;
+    overflow-y: auto;
+}
+
+.J02DivUserTouroku {
+    background-color: #ffffff;
+    border: solid;
+    border-color: #ffffff;
+    margin: 31px 35px 0 35px;
+    width: 800px !important;
+}
+
+.J02NyuryokuLabel {
+    font-size: 14px !important;
+}
+
+.J02LabelColor {
+    color: red;
+}
+
+.J02ErrorLabel {
+    font-size: 11px !important;
+    text-align: left;
+    display: block;
+    color: red;
+    margin-top: 3px;
+}
+
+.J02TourokuButton {
+    line-height: 40px;
+    text-align: center;
+    border: none;
+    font-size: 14px;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    background: rgb(91, 155, 213);
+}
+
+    .J02TourokuButton:hover {
+        background: rgba(0,113,188,1);
+    }
+
+.DisableJ02TourokuButton {
+    line-height: 40px;
+    text-align: center;
+    border: none;
+    font-size: 14px;
+    border-radius: 6px;
+    color: rgb(192,192,192);
+    background: rgb(91, 155, 213);
+}
+
+.J02Textbox {
+    width: 420px !important;
+    max-width: 420px !important;
+    height: 38px !important;
+}
+
+.J02DropDown {
+    height: 28px;
+    width: 320px !important;
+    max-width: 320px !important;
+    font-size: 14px;
+    background-color: rgb(255,255,255);
+    padding-left: 3px;
+    padding-right: 2px;
+    border-radius: 4px !important;
+}
+
+.J02Height {
+    height: 16px;
+}
+
+.J02KakuninLabelHeight {
+    height: 40px;
+}
+
+.J02LabelWidth {
+    width: 170px;
+    text-align: right;
+    padding-right: 20px !important;
+}
+
+.J02LabelKakuninWidth {
+    width: 140px;
+    text-align: left;
+    padding-right: 10px !important;
+}
+
+.J02ButtonMargin {
+    margin-left: 142px !important;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid rgb(91, 155, 213);
+    width:100px;
+}
+
+.J02ChkLinkButton {
+    font-size: 13px;
+    color: rgb(41, 171, 226) !important;
+    text-decoration: none !important;
+    position: absolute;
+    margin-top: 3px;
+}
+
+    .J02ChkLinkButton:hover {
+        color: rgba(0,113,188,1) !important;
+    }
+
+.J02ChkLabel {
+    font-size: 13px;
+    position: absolute;
+    margin-left: 53px;
+    margin-top: 3px;
+}
+
+.J02ChkBox {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+    .J02ChkBox input {
+        width: 22px;
+        height: 22px;
+        margin: 0px 6px 0px 0px;
+    }
+
+
+/***************************J03TourokuKakuninMessage*************************************/
+.J03NyuryokuLabel {
+    display: inline-block;
+    line-height: 25px;
+    font-size: 17px !important;
+}
+
+.J03NyuryokuLabel1 {
+    display: inline-block;
+    line-height: 25px;
+    width: 340px;
+    text-align: left;
+}
+
+.J03divContainer {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 1px;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+    .J03NyuryokuLabel {
+        width: auto;
+    }
+}
+
+.J03LinkLbl {
+    width: 73% !important;
+}
+
+.J03DivUserTouroku {
+    background-color: #ffffff;
+    height: 600px !important;
+    border: solid;
+    border-color: #ffffff;
+    margin: 31px 35px 0 35px;
+    padding-top: 48px;
+    width: 800px !important;
+}
+
+.J03imgbtnJobzRacoo {
+    width: 190px;
+    height: 156px !important;
+}
+
+/***************************J04Validate*******************************************/
+.J04Label1 {
+    display: inline-block;
+    line-height: 25px;
+}
+
+.J04Label2 {
+    display: inline-block;
+    line-height: 25px;
+    text-decoration:underline;
+    font-size:14px;
+}
+
+.J04Label3 {
+    display: inline-block;
+    line-height: 25px;
+}
+
+.J04DivOKMessage {
+    margin-top:30px;
+    padding: 0 50px;
+    text-align: center;
+}
+
+.J04LabelFontSize {
+    font-size: 17px !important;
+}
+
+/***************************J05PwdResetMail**************************/
+
+.J05divLogincolumn {
+    padding-top: 24px !important;
+    width: 700px !important;
+    height: 450px !important;
+}
+
+.J05BtnSoushin {
+    width: 130px !important;
+    max-width: 130px !important;
+    line-height: 35px !important;
+    font-size: 14px !important;
+    border-radius: 6px !important;
+    margin-left: 25px !important;
+    background: rgb(91, 155, 213);
+}
+
+
+.J05Body {
+    background-color: rgb(236, 241, 248) !important;
+    overflow-x: hidden;
+    padding-top: 70px !important;
+}
+
+.J05LabelRow {
+    width: 570px !important;
+    margin-top: 5px !important;
+}
+
+.J05Textbox {
+    width: 400px !important;
+    max-width: 400px !important;
+    height: 38px !important;
+}
+
+.J05RowHeight {
+    height: 25px;
+}
+
+.J05LabelFontSize {
+    font-size: 14px !important;
+}
+
+.J05DivOKMessage {
+    padding: 0 50px;
+    text-align: center;
+}
+
+/***************************J06PwdReset_パスワード再設定画面*************************************/
+.J06Form {
+    margin-left: -8px;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgb(236, 241, 248) !important;
+    overflow-y: auto;
+}
+
+.J06divContainer {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 1px;
+}
+
+.J06DivPwdReset {
+    background-color: #ffffff;
+    border: solid;
+    border-color: #ffffff;
+    margin-top: 69px;
+    padding-top: 31px !important;
+    width: 800px !important;
+}
+
+.J06Textbox {
+    width: 350px !important;
+    max-width: 420px !important;
+    height: 38px !important;
+}
+
+.J06LabelWidth {
+    width: 170px;
+    text-align: right;
+    padding-right: 30px !important;
+}
+
+.J06Height {
+    height: 25px;
+}
+
+.J06ErrorLabel {
+    font-size: 11px !important;
+    text-align: left;
+    display: block;
+    color: red;
+    margin-top: 3px;
+}
+
+.J06TourokuButton {
+    line-height: 40px;
+    width: 120px;
+    background: rgb(91, 155, 213);
+    font-size:14px;
+}
+
+.J06TourokuButton:hover {
+     background: rgba(0,113,188,1);
+}
+
+.J06MailButtonStyle {
+    background-color: rgba(41,171,226,1);
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold
+}
+
+.J06TblStyle {
+    margin: auto;
+}
+
+.J06PwdResetPadding {
+    padding: 35px;
+}
+
+
+/***************************JC09BukkenSyousai物件登録＆詳細*************************************/
+
+.JC09DateButton {
+    width: 70px;
+    background: rgb(255, 255, 255);
+    font-size: 13px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+}
+
+
+.JC09DateButton:hover{
+   background: rgb(209,205,205);
+}
+
+.JC09navbar {
+    margin-left: auto;
+    margin-right: auto;
+    padding:8px 24px;
+}
+
+.JC09TableWidth {
+    max-width: 1390px !important;
+    min-width: 1390px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.JC09GridGrayBtn {
+    background: rgb(242, 242, 242);
+    font-size: 13px;
+    border-radius: 2px;
+    border: none;
+}
+
+
+.JC09DropDown {
+    z-index: 100 !important;
+    overflow: unset !important;
+}
+
+/***************************JC10MitsumoriTouroku_見積登録＆明細*************************************/
+
+.JC10MitumoriTourokuDiv {
+    max-width: 1390px !important;
+    min-width: 1390px !important;
+    background-color: #FFF;
+    /*margin-left:20px;
+    margin-right:20px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.JC10DivMitumoriSyosai {
+    max-width: 1345px !important;
+    min-width: 1345px !important;
+}
+
+.JC10navbar {
+    max-width: 1390px !important;
+    min-width: 1390px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.JC10DivMitumoriJouhou {
+    background-color: white;
+    width: 400px;
+}
+
+.JC10MitumoriTourokuWidth {
+    max-width: 1345px !important;
+    min-width: 1345px !important;
+}
+
+.JC10MitumoriTourokuTbl {
+    margin-left:22px;
+}
+
+.JC10MitumoriMeiTourokuTextBox {
+    width: 400px !important;
+    max-width: 400px;
+    height: 28px !important;
+}
+
+.JC10UkewatashibashoTextBox {
+    width: 150px !important;
+    max-width: 150px;
+    height: 28px !important;
+}
+
+.JC10MitumoriTourokuTextArea {
+    padding: 3px !important;
+    width: 430px !important;
+    max-width: 430px;
+    line-height: 13px;
+    font-size: 13px !important;
+    resize: none;
+    word-break: break-all;
+    border: 0.5px solid rgb(155, 155, 155) !important;
+}
+
+.JC10MitumoriTourokuFirstTd {
+    width: 90px;
+    min-width:90px !important;
+}
+
+.JC10MitumoriTourokuFirstTd1 {
+    width: 60px;
+    min-width: 60px !important;
+}
+
+.JC10MitumoriTourokuTd2 {
+    width: 160px;
+    min-width: 160px !important;
+}
+
+.JC10MitumoriTourokuTd3 {
+    width: 90px;
+    min-width: 70px !important;
+}
+
+.JC10MitumoriTourokuTd4 {
+    width: 550px;
+    min-width: 550px !important;
+}
+
+.JC10MitumoriTourokuTd6 {
+    width: 103px;
+    min-width: 100px !important;
+}
+
+.JC10MitumoriTourokuTd7 {
+    width: 85px;
+    min-width: 85px !important;
+}
+
+.JC10MitumoriTourokuTd8 {
+    width: 145px;
+    min-width: 145px !important;
+}
+
+.JC10MitumoriTourokuTd9 { /*20220502 Updated Eaindray*/
+    width: 115px;
+    min-width: 115px !important;
+    /*width: 156px;
+    min-width: 156px !important;*/
+}
+
+.JC10MitumoriTourokuTd_del { /*20220502 Added Eaindray*/
+    width: 73px;
+    min-width: 73px !important;
+}
+
+.JC10MitumoriTourokuTd10 {
+    width: 470px;
+    min-width: 470px !important;
+}
+
+.JC10KingakuLabel {
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 80px;
+    min-width: 80px !important;
+    max-width:80px;
+    height:30px;
+}
+
+.JC10MitumoriTourokuHeightTr {
+    height: 45px;
+}
+
+.JC10MitumoriTourokuHeightTr1 {
+    height: 105px;
+}
+
+.JC10MitumoriTourokuHeightTr2 {
+    height: 280px;
+}
+
+.JC10MitumoriTourokuHeightTr3 {
+    height: 40px;
+}
+
+.JC10MitumoriTourokuHeightTr4 {
+    height: 92px !important;
+}
+
+.JC10MitumoriTourokuHeightTr5 {
+    height: 45px !important;
+}
+
+.JC10txtDatePicker {
+    background-image: url('../Img/schedule20.gif');
+    background-repeat: no-repeat;
+    padding-right: 25px;
+    background-position: right 1px;
+    width: 120px !important;
+    max-width: 120px;
+    height: 28px !important;
+}
+
+.JC10GrayButton {
+    //width: 70px;
+    background: rgb(242, 242, 242);
+    font-size: 13px;
+    //height: 35px;
+    border-radius:3px;
+    border:none;
+    padding:6px 12px 6px 12px;
+    letter-spacing:1px;
+}
+
+.JC10DisableButton {
+    //width: 70px;
+    background: rgb(242, 242, 242);
+    font-size: 13px;
+    //height: 35px;
+    border-radius: 3px;
+    border: none;
+    padding: 6px 12px 6px 12px;
+    letter-spacing: 1px;
+}
+
+.JC10GrayButton:hover, .JC10CancelBtn:hover, .JC12CancelBtn:hover{
+    background: rgb(209,205,205);
+}
+
+.JC10ImagePanel {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.JC10DaiHyouImage {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    object-fit: contain;
+}
+
+.JC10DaiHyouImageLink {
+    width: 100%;
+    text-align:center;
+}
+
+.JC10Borderline {
+    border-bottom: 2px solid rgb(230, 230, 230);
+    margin: 0px 0px 10px 0px;
+}
+
+.JC10HyojikoumoukuTd {
+    max-width: 250px !important;
+    min-width: 250px !important;
+    text-align: right;
+    padding-right:10px;
+}
+
+.JC10UriageGridMemo, .JC10UriageGridMemoCol {
+    min-width: 265px;
+    max-width: 265px;
+    width: 265px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC10CheckBox {
+    min-width: 22px;
+    max-width: 22px;
+    width: 22px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC10ButtonCol {
+    min-width: 32px;
+    max-width: 32px;
+    width: 32px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC10DropCol {
+    min-width: 25px;
+    max-width: 25px;
+    width: 25px;
+}
+
+.JC10GridViewDiv {
+    max-width: 1352px !important;
+    min-width: 1352px !important;
+    margin-left: 20px;
+    //height: 220px;
+    overflow-x: auto;
+    overflow-y:unset;
+    padding-right:20px !important;
+}
+
+.JC10UriageGridViewDiv {
+    min-width: 100%;
+    margin-left: 20px;
+}
+
+.JC10NameCol, .JC10NameHeaderCol {
+    min-width: 170px;
+    max-width: 170px;
+    width: 170px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC10UriageGrid {
+    min-width: 1350px;
+    max-width: 1350px;
+    width: 1350px;
+}
+
+.JC10UriageGridDiv {
+    width: 170px;
+    height: 35px !important;
+}
+
+.JC10txtFilePath {
+    font-size: 13px;
+    min-width: 640px;
+    max-width: 640px;
+}
+
+@media only screen and (max-width: 1366px) {
+    .JC10GridViewDiv {
+        max-width: 1270px !important;
+        min-width: 1270px !important;
+        margin-left: 20px;
+        //height: 220px;
+        overflow: auto;
+    }
+
+    .JC10UriageGridViewDiv {
+        max-width: 1270px !important;
+        min-width: 1270px !important;
+        margin-left: 20px;
+    }
+
+    .JC10MitumoriTourokuDiv {
+        max-width: 1310px !important;
+        min-width: 1310px !important;
+        background-color: #FFF;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .JC09TableWidth {
+        max-width: 1310px !important;
+        min-width: 1310px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .JC10navbar {
+        max-width: 1310px !important;
+        min-width: 1310px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .JC10HyojikoumoukuTd {
+        max-width: 175px !important;
+        min-width: 175px !important;
+        text-align: right;
+    }
+
+    .JC10UriageGridMemo, .JC10UriageGridMemoCol {
+        min-width: 185px;
+        max-width: 185px;
+        width: 185px;
+        line-height: 0px;
+        font-size: 13px;
+    }
+
+    .JC09MitumoriGridMituName, .JC09MitumoriGridMituNameCol {
+        min-width: 387px;
+        max-width: 387px;
+        width: 387px;
+    }
+
+    .JC09MituNameDiv {
+        min-width: 383px;
+        max-width: 383px;
+        width: 383px;
+    }
+
+    .JC10DivMitumoriSyosai {
+        max-width: 1265px !important;
+        min-width: 1265px !important;
+    }
+
+    .JC10MitumoriTourokuWidth {
+        max-width: 1265px !important;
+        min-width: 1265px !important;
+    }
+
+    .JC10UriageGrid {
+        min-width: 1270px;
+        max-width: 1270px;
+        width: 1270px;
+    }
+
+    .JC10NameCol, .JC10NameHeaderCol {
+        min-width: 153px;
+        max-width: 153px;
+        width: 153px;
+        line-height: 0px;
+        font-size: 13px;
+    }
+
+    .JC10UriageGridDiv {
+        width: 150px;
+        height: 35px !important;
+    }
+
+    .JC10UriageGridLabel {
+        text-align: left;
+        width: 150px;
+    }
+
+    .JC10txtFilePath {
+        font-size: 13px;
+        min-width: 590px;
+        max-width: 590px;
+    }
+
+    .JC11DivScroll {
+        max-height:565px !important;
+        overflow-y:auto !important;
+        overflow-x:hidden !important;
+    }
+
+    .JC11GridViewDiv {
+        max-width: 1295px !important;
+        width: 1295px !important;
+        margin-left: 13px;
+        overflow: auto;
+        overflow-x: auto;
+        height: 230px;
+    }
+
+    .JC11SyohinNameMeisaiCol, .JC11SyohinNameMeisaiHeaderCol {
+        min-width: 260px !important;
+        max-width: 260px !important;
+        width: 260px !important;
+        line-height: 0px;
+        font-size: 13px;
+    }
+
+    .JC11SyosaiGridViewDiv {
+        max-width: 1295px !important;
+        width: 1295px !important;
+        margin-left: 13px;
+        overflow: auto;
+        max-height: 450px;
+    }
+}
+
+.JC10NoDataMessageStyle {
+    font-size: 27px;
+    color: rgb(100,100,100);
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 90px;
+    height: 200px;
+    text-align: center;
+}
+
+.JC10MitumoriCheckboxCol, .JC10MitumoriGridCheckboxHeaderCol {
+    min-width: 18px;
+    max-width: 18px;
+    width: 18px;
+    line-height: 0px;
+    padding: 3px 0px !important;
+    font-size: 13px;
+}
+
+.JC10MitumoriGridHeaderStyle {
+    text-align: left !important;
+    background-color: rgb(242,242,242);
+    border:2px;
+    border-bottom:0px;
+    border-top:0px;
+    border-color:white;
+    /*border-right: 1px solid white;*/
+}
+
+.JC10MitumoriGridPludBtnCol, .JC10MitumoriGridPludBtnHeaderCol {
+    min-width: 34px;
+    max-width:34px;
+    width:34px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC10MitumoriGridSyohinCodeCol, .JC10MitumoriGridSyohinCodeHeaderCol {
+    min-width: 95px;
+    max-width:95px;
+    width:95px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC10GridTextBox {
+    min-width:100% !important;
+    max-width:100% !important;
+    width:100% !important;
+    border-radius: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 0.5px solid rgb(155, 155, 155) !important;
+}
+
+.JC10MitumoriGridSyohinNameCol, .JC10MitumoriGridSyohinNameHeaderCol {
+    min-width: 250px;
+    max-width: 250px;
+    width:250px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC10MitumoriGridUriageNameCol, .JC10MitumoriGridUriageNameHeaderCol {
+    min-width: 155px;
+    max-width: 155px;
+    width: 155px;
+    font-size: 13px;
+}
+
+.JC10MitumoriGridSyuryoCol, .JC10MitumoriGridSyuryoHeaderCol {
+    min-width: 70px;
+    max-width:70px;
+    width:70px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC10MitumoriGridTaniCol, .JC10MitumoriGridTaniHeaderCol {
+    min-width: 55px;
+    max-width: 55px;
+    width: 55px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC10MitumoriGridArariSuCol, .JC10MitumoriGridSyuryoArariSuCol {
+    min-width: 55px;
+    max-width: 55px;
+    width: 55px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC10MitumoriGridMemo, .JC10MitumoriGridMemoCol {
+    min-width: 200px;
+    max-width: 200px;
+    width: 200px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC10MitumoriGridKingakuCol, .JC10MitumoriGridKingakuHeaderCol {
+    min-width: 102px;
+    max-width:102px;
+    width:102px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC10MitumoriGridKenmeiCol, .JC10MitumoriGridKenmeiHeaderCol {
+    min-width: 200px;
+    max-width: 200px;
+    width: 200px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC10UriageGridJoutaiCol, .JC10UriageGridJoutaiHeaderCol {
+    min-width: 60px;
+    max-width: 60px;
+    width: 60px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC10DivSave {
+    margin: 10px 0px 0px 0px;
+    height: 60px;
+    padding-top:15px;
+}
+
+.JC10SaveBtn {
+    font-size: 14px;
+    //height: 36px;
+    border-radius: 3px;
+    margin-right:13px;
+    margin-top:0px;
+    padding:6px 12px 6px 12px;
+    letter-spacing:1px;
+}
+
+.JC10SaveBtnDisable {
+    background: rgb(242, 242, 242);
+    font-size: 13px;
+    //height: 36px;
+    border-radius: 3px;
+    margin-right: 13px;
+    margin-top: 0px;
+    border: none;
+    padding: 6px 12px 6px 12px;
+    letter-spacing: 1px;
+}
+
+
+.JC10CancelBtn {
+    margin-left: 10px;
+    background: rgb(255, 255, 255);
+    font-size: 14px;
+    //height: 35px;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid rgb(91, 155, 213);
+    color: rgb(91, 155, 213);
+    padding: 6px 12px 6px 12px;
+    letter-spacing: 1px;
+}
+
+.JC10DeleteBtn {
+    margin-left: 67px;
+    background: rgb(255, 0, 0);
+    font-size: 14px;
+    //height: 36px;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid rgb(238, 40, 40);
+    color: white;
+    padding:6px 12px 6px 12px;
+    letter-spacing:1px;
+}
+
+.JC10DeleteBtn:hover {
+        background: rgb(158,41,41);
+}
+
+.JC10NotSeletedDatePicker {
+    background-image: url('../Img/schedule20.gif');
+    background-repeat: no-repeat;
+    background-position: left 3px;
+    padding-left: 3px;
+    width: 20px;
+    margin-right: 5px;
+    cursor:pointer;
+}
+
+.JC10SeletedDatePicker {
+    padding-left: 3px;
+    width: 83px;
+    margin-right: 8px;
+    margin-left: 2px;
+    font-size: 13px;
+    background-color: rgba(230, 230, 230, 1);
+    line-height: 18px;
+    height: 22px;
+    margin-bottom: 2px;
+    color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+
+.JC10Chkbox label {
+    padding-left:5px;
+    vertical-align: middle;
+    display: inline !important;
+}
+
+
+.JC10ZeikomiBtn {
+    background: rgb(255, 255, 255);
+    font-size: 13px;
+    border: 1px solid rgb(166, 166, 166);
+}
+
+.JC10ZeikomiBtnActive {
+    background: rgb(217, 217, 217);
+    font-size: 13px;
+    border: 1px solid rgb(166, 166, 166);
+}
+
+.JC10ZeikomiBtn:hover {
+    background: rgb(209,205,205);
+}
+
+.JC10dropZoneExternal {
+    position: relative;
+    border: 1px solid rgb(155, 155, 155) !important;
+    cursor: pointer;
+    border-radius: 3px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:15px;
+    background:white;
+}
+
+.JC10dropZoneExternal,
+.JC10dragZoneText {
+    width: 100%;
+    max-width: 110px;
+    min-width: 110px;
+    height: 100px;
+}
+
+.JC10dropZoneExternal > div,
+.JC10dropZoneExternal > img {
+        position: absolute;
+    }
+
+.JC10ImagePreview {
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 4px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 110px;
+    min-width: 110px;
+    height: 25px;
+    background-color: #f2f2f2;
+    font-size:13px;
+}
+
+.JC10MitumoriSyosaiButton {
+    background: transparent;
+    background-image: url(../Img/expand-more-1782315-1514165.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 14px;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid #a6a6a6;
+    padding: 0px 12px 0px 12px;
+    letter-spacing: 1px;
+    height: 30px !important;
+    max-height: 30px !important;
+}
+
+.JC10ImageDelete {
+    position: absolute;
+    z-index: 10;
+    right: -1px !important;
+    top: -1px !important;
+    width: 28px;
+    height: 28px;
+    font-size: 20px;
+    border: 0px;
+    font-weight: 900;
+    color: black;
+    opacity: 70%;
+}
+
+.JC10ImageDelete:hover {
+        opacity:100%;
+}
+
+.JC10-modal {
+    z-index: 1000;
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    }
+
+.JC10-modal-content {
+    margin: auto;
+    background-color: #fff;
+    position: absolute;
+    padding: 0;
+    outline: 0;
+    max-width: 450px !important;
+    margin: auto;
+    padding: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+/*.JC10-animate-zoom
+{
+    animation: animatezoom 0.6s;
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}*/
+
+@media (max-width:600px) {
+    .JC10-modal-content {
+        margin: 0 10px;
+        width: auto !important
+    }
+
+    .JC10-modal {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width:768px) {
+    .JC10-modal-content {
+        width: 350px;
+    }
+
+    .JC10-modal {
+        padding-top: 50px
+    }
+}
+
+@media (min-width:993px) {
+    .JC10-modal-content {
+        width: 600px
+    }
+
+    .JC10-hide-large {
+        display: none !important
+    }
+}
+
+.JC10TextboxDisable {
+    background-color: rgb(245, 245, 245) !important;
+}
+/***************************JC11MitsumoriSyousai_見積詳細P*************************************/
+.JC11MitumoriSyosaiDiv {
+    max-width: 1330px !important;
+    width: 1330px !important;
+    background-color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.JC11GridViewDiv {
+    max-width: 1305px !important;
+    width: 1305px;
+    margin-left: 13px;
+    overflow: auto;
+    overflow-x: auto;
+    height:230px;
+}
+
+.JC11SyosaiGridViewDiv {
+    max-width: 1305px !important;
+    width: 1305px;
+    margin-left: 13px;
+    overflow: auto;
+    max-height: 450px;
+}
+
+.JC11LabelItem {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-right: 2px;
+    height: auto;
+    vertical-align: middle;
+    padding-top: 17px;
+    cursor: pointer;
+}
+
+.JC11SyohinCodeCol, .JC11SyohinCodeHeaderCol {
+    min-width: 90px;
+    max-width: 90px;
+    width: 90px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC11SyohinNameMeisaiCol, .JC11SyohinNameMeisaiHeaderCol {
+    min-width: 280px;
+    max-width: 280px;
+    width: 280px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC11SyohinSuryoCol, .JC11SyohinSuryoHeaderCol {
+    min-width: 55px;
+    max-width: 55px;
+    width: 55px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC11SyohinTaniCol, .JC11SyohinTaniHeaderCol {
+    min-width: 55px;
+    max-width: 55px;
+    width: 55px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC11KingakuCol, .JC11KingakuHeaderCol {
+    min-width: 98px;
+    max-width: 98px;
+    width: 98px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC11Borderline {
+    border-bottom: 1px solid rgb(230, 230, 230);
+    margin: 20px 0px 10px 0px;
+}
+
+.JC11GenkaHouShikiActiveBtn {
+    //width: 110px;
+    background: rgb(242, 242, 242);
+    font-size: 13px;
+    /*height: 30px;*/
+    border: 2px solid #7f7f7f;
+    padding: 4px 12px 4px 12px;
+    letter-spacing: 1px;
+}
+
+.JC11GenkaHouShikiBtn {
+    //width: 110px;
+    background: white;
+    font-size: 13px;
+    /*height: 30px;*/
+    border: none;
+    padding:4px 12px 4px 12px;
+    letter-spacing:1px;
+}
+
+.JC11ItemPanel {
+    border: 1px solid #bfbfbf;
+    padding:10px 5px 10px 5px;
+    margin-bottom:10px;
+}
+
+.JC11MitumoriItemTextBox {
+    height: 25px !important;
+    margin: 5px 5px 0px 5px;
+    caret-color:transparent;
+}
+
+.JC11MitumoriGridSyohinCodeCol, .JC11MitumoriGridSyohinCodeHeaderCol {
+    min-width: 95px;
+    max-width: 95px;
+    width: 95px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC11MitumoriGridSyohinNameCol, .JC11MitumoriGridSyohinNameHeaderCol {
+    min-width: 220px;
+    max-width: 220px;
+    width: 220px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+    /***************************JC12MitsumoriKensaku_見積検索P*************************************/
+    .JC12MitumoriTourokuDiv {
+        max-width: 1330px !important;
+        width: 1330px !important;
+        background-color: #FFF;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
+    .JC12mitsumoriiframeStyle {
+        height: 750.188px !important;
+    }
+
+
+    .JC12MitumoriKensakuDiv {
+        min-width: 950px !important;
+        max-width: 950px !important;
+        left: 50%;
+        border: 1px solid #808080;
+        border-radius: 12px;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 25px 30px 5px 23px;
+    }
+
+    .JC12MitumoriCodeTextBox {
+        width: 110px !important;
+        max-width: 110px;
+        height: 28px !important;
+        margin-right: 20px;
+    }
+
+    .JC12MitumoriMeiTextBox {
+        width: 200px !important;
+        max-width: 200px;
+        height: 28px !important;
+        margin-right: 20px;
+    }
+
+    .JC12MitumoriJoutaiTextBox {
+        width: 130px !important;
+        max-width: 130px;
+        height: 28px !important;
+        margin-right: 20px;
+    }
+
+    .JC12MitumoriTokuisaki {
+        width: 160px !important;
+        max-width: 160px;
+        height: 28px !important;
+        margin-right: 20px;
+    }
+
+    .JC12MitumoriTantousha {
+        width: 120px !important;
+        max-width: 120px;
+        height: 28px !important;
+        margin-right: 20px;
+    }
+
+    .JC12DateStart {
+        width: 110px !important;
+        max-width: 110px;
+        height: 28px !important;
+        margin-right: 2.1px;
+    }
+
+    .JC12DateEnd {
+        width: 110px !important;
+        max-width: 110px;
+        height: 28px !important;
+        margin-left: 2.1px;
+        margin-right: 20px;
+    }
+
+    .JC12ButtonDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .JC12SearchBtn {
+        font-size: 14px;
+        //height: 35px;
+        border-radius: 3px;
+        margin-right: 20px;
+        padding: 6px 12px 6px 12px;
+        letter-spacing: 1px;
+    }
+
+    .JC12HyojiItemSettingBtn {
+        margin-left: 10px;
+        background: rgb(255, 255, 255);
+        font-size: 13px;
+        //height: 35px;
+        border-radius: 3px;
+        border: none;
+        border: 1px solid #a6a6a6;
+        margin-right: 15px;
+        padding: 6px 12px 6px 12px;
+        letter-spacing: 1px;
+    }
+
+        .JC12HyojiItemSettingBtn:hover {
+            background: rgb(209,205,205);
+        }
+
+    .JC12GridTextBox {
+        border-radius: 3px;
+        padding: 6px 12px 6px 12px;
+        border: 0.5px solid rgb(155, 155, 155) !important;
+        margin-right: 25px;
+        margin-left: 15px;
+        letter-spacing: 1px;
+    }
+
+    .JC12LblHyojikensuu {
+        margin-right: 25px;
+    }
+
+    .JC12MitumoriCodeCol, .JC12MitumoriCodeHeaderCol {
+        min-width: 100px;
+        max-width: 100px;
+        width: 100px;
+        line-height: 0px;
+        font-size: 13px;
+    }
+
+    .JC12MitumoriMeiCol, .JC12MitumoriMeiHeaderCol {
+        min-width: 190px;
+        max-width: 190px;
+        width: 190px;
+        line-height: 0px;
+        font-size: 13px;
+    }
+
+    .JC12EigyoTantouCol, .JC12EigyoTantouHeaderCol {
+        min-width: 310px;
+        max-width: 310px;
+        width: 310px;
+        line-height: 0px;
+        font-size: 13px;
+        padding-right: 2px;
+    }
+
+    .JC12SakuseiSyaCol, .JC12SakuseiSyaHeaderCol {
+        min-width: 95px;
+        max-width: 95px;
+        width: 95px;
+        line-height: 0px;
+        font-size: 13px;
+        padding-right: 2px;
+    }
+
+    .JC12KingakuCol, .JC12KingakuHeaderCol {
+        min-width: 100px;
+        max-width: 100px;
+        width: 100px;
+        line-height: 0px;
+        font-size: 13px;
+    }
+
+    .JC12GridItem {
+        border-bottom: 1px solid lightgray;
+    }
+
+    .JC12GridViewDiv {
+        max-width: 1305px !important;
+        width: 1305px;
+        margin-left: 13px;
+        overflow: auto;
+        overflow-y: hidden;
+    }
+
+    .JC12LabelItem {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        padding-right: 2px;
+        height: auto;
+        vertical-align: middle;
+        padding-top: 17px;
+        cursor: pointer;
+    }
+
+    .JC12JokenDiv {
+        border: 1px solid rgb(155, 155, 155);
+        border-radius: 8px;
+        padding: 4px 0px 3px 0px;
+        vertical-align: middle;
+        display: inline-block;
+        margin-right: 2px;
+        margin-bottom: 2px;
+        margin-left: 10px;
+        height: 30px;
+    }
+
+    .JC12JokenCross {
+        vertical-align: middle;
+        /* margin-left: 10px !important;
+    margin-right: 10px !important;
+    height: 20px;
+    border: none;
+    color: #495057;*/
+        margin-left: 5px;
+        margin-right: 3px;
+        height: 20px;
+        border: none;
+        color: #495057;
+    }
+
+    .JC12JokenLabel {
+        margin-right: 10px;
+        margin-left: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        /*margin-right: 10px !important;
+    margin-left: 10px !important;
+    text-align: center;*/
+        color: #495057;
+    }
+
+    .JC12CancelBtn {
+        margin-left: 10px;
+        background: rgb(255, 255, 255);
+        font-size: 13px;
+        height: 35px;
+        border-radius: 8px;
+        border: none;
+        border: 1px solid #9b9b9b;
+        color: #4b4b4b;
+    }
+
+    /***************************JC18TokuisakiSelect_得意先を選択*************************************/
+
+    .JC18TextBox {
+        width: 400px !important;
+        max-width: 400px;
+        height: 28px !important;
+        margin-right: 20px;
+    }
+
+.JC18HeaderCol {
+    line-height: 0px;
+    font-size: 13px;
+    border:2px solid white;
+}
+
+.JC18CodeHeaderCol {
+    min-width: 70px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+    .JC18_cancelbtn {
+        height: 37px;
+        text-align: center;
+        border: none;
+        font-size: 13px;
+        border-radius: 6px;
+        color: rgb(255, 255, 255);
+        width: 120px;
+        padding-left: 10px;
+        padding-left: 10px;
+    }
+
+    /***************************JC19TokuisakiSyousai_得意先詳細*************************************/
+.JC19TableWidth {
+    max-width: 1050px !important;
+    min-width: 1050px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.JC19TokuiGridHeaderStyle {
+    text-align: left !important;
+    background-color: rgb(242,242,242);
+}
+
+    .JC19TokuiNoGridHeaderStyle {
+        text-align: left !important;
+        background-color: rgb(242,242,242);
+    }
+
+    .JC19GridNo, .JC19GridNoHeader {
+        min-width: 60px;
+        max-width: 60px;
+        width: 60px;
+        line-height: 0px;
+        font-size: 13px;
+        //padding-left: 10px;
+    }
+
+.JC19GridNoHeader {
+    padding-left: 10px;
+}
+
+.JC19GirdBumon {
+    min-width: 212px;
+    max-width: 212px;
+    width: 212px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+    .JC19GirdTel {
+        min-width: 190px;
+        max-width: 190px;
+        width: 190px;
+        line-height: 0px;
+        font-size: 13px;
+    }
+
+    .JC19GirdKeishou {
+        min-width: 100px;
+        max-width: 100px;
+        width: 100px;
+        line-height: 0px;
+        font-size: 13px;
+    }
+
+    .JC19GirdTwoButton {
+        min-width: 66px;
+        max-width: 66px;
+        width: 66px;
+        line-height: 0px;
+        font-size: 13px;
+        padding-right:2px;
+    }
+
+.JC19TantouNameCol, .JC19TantouNamHeaderCol {
+    min-width: 362px;
+    max-width: 362px;
+    width: 362px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC19txtTantou {
+    min-width: 360px;
+    max-width: 360px;
+    width: 360px;
+}
+
+.JC19GridDiv
+{
+    min-height:365px;
+}
+
+@media only screen and (max-width: 1366px) {
+    .JC19TantouNameCol, .JC19TantouNamHeaderCol {
+        min-width: 320px;
+        max-width: 320px;
+        width: 320px;
+        line-height: 0px;
+        font-size: 13px;
+
+    }
+
+    .JC19txtTantou {
+        min-width: 318px;
+        max-width: 318px;
+        width: 318px;
+    }
+
+    .JC19GridDiv {
+        min-height: 80px;
+    }
+}
+    /***************************JC20TokuisakiTanTouKensaku_得意先担当者を選択*************************************/
+    .JC20NameHeaderCol {
+        min-width: 230px;
+        max-width: 230px;
+        width: 230px;
+        line-height: 0px;
+        font-size: 13px;
+        padding-left: 20px;
+    }
+
+    .JC20BumonHeaderCol {
+        min-width: 195px;
+        max-width: 195px;
+        width: 195px;
+        line-height: 0px;
+        font-size: 13px;
+    }
+    /***************************JCHidukeSelect_日付選択画面*************************************/
+    .JCHDiv {
+        height: 365px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        background-color: #FFF;
+        border-radius: 20px;
+    }
+
+    TABLE A {
+        text-decoration: none;
+    }
+
+    .JCHButton {
+        color: rgb(100,100,100);
+        background-color: rgb(230, 230, 230);
+        text-align: center;
+        border: none;
+        border-radius: 8px;
+        padding-top: 3px;
+        border: 5px solid white;
+        background-clip: padding-box;
+    }
+
+    /* for safari 5.1.7 hack */
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        ::outside chrome, .S20Button {
+            border-radius: 18px;
+            border: 6px solid white;
+            padding-top: 4px;
+        }
+    }
+
+    .JCHDayStyle {
+        color: rgb(100,100,100);
+    }
+
+    .JCHOtherMonthDayStyle {
+        font-weight: 600;
+    }
+
+    .JCHSelectedDayStyle {
+        color: white;
+        width: 50px;
+        border-radius: 50%;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .JCHSelectorStyle {
+        background-color: #FFCC66;
+    }
+
+    /* for safari 5.1.7 hack */
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        ::outside chrome, .S20SelectedDayStyle {
+            height: 28px;
+            -webkit-border-radius: 50%;
+        }
+    }
+
+    .JCHTitleStyle {
+        background-color: white;
+        font-weight: bolder;
+        text-shadow: inherit;
+        font-size: 10pt;
+        color: rgb(41, 171, 226);
+    }
+
+    /* for safari 5.1.7 hack */
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        ::outside chrome, .S20TitleStyle {
+            font-size: 11pt;
+        }
+    }
+
+    .JCHCalendar {
+        Font-Size: 10pt;
+        color: black;
+        background-color: white;
+        border: none;
+        margin-left: 8px;
+        margin-right: 8px;
+        text-align: center;
+        height: 260px;
+        width: 240px;
+    }
+
+    .JCHKadouJikanSetteiBtn {
+        //width: 80px;
+        margin-left: 45px;
+        padding: 6px 12px 6px 12px;
+        letter-spacing: 1px;
+        border-radius: 3px;
+    }
+
+    .JCHDivJikan {
+        margin-left: 55px;
+        margin-top: 5px;
+    }
+
+    .JCHTdButtonHeight {
+        height: 40px;
+    }
+
+    /* for safari 5.1.7 hack */
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        ::outside chrome, .S20TdButtonHeight {
+            height: 45px;
+        }
+    }
+
+    .JCHBorderLine {
+        border-bottom: 1px solid rgb(230, 230, 230);
+    }
+
+    /***************************JCUserSetting_ユーザー設定画面*************************************/
+
+    .JC28CancelBtn {
+        margin-left: 10px;
+        background: rgb(255, 255, 255);
+        font-size: 13px;
+        height: 35px;
+        border-radius: 8px;
+        border: none;
+        border: 1px solid #9b9b9b;
+        color: #4b4b4b;
+    }
+
+    .JC28GridTextBox {
+        border-radius: 8px;
+        padding: 0px;
+        border: 0.5px solid rgb(155, 155, 155) !important;
+        margin-right: 25px;
+        margin-left: 15px;
+        width: 80px;
+        Font-Size: 14px;
+    }
+
+    .JC28HyojiItemSettingBtn {
+        margin-left: 10px;
+        background: rgb(255, 255, 255);
+        font-size: 13px;
+        height: 35px;
+        border-radius: 8px;
+        border: none;
+        border: 1px solid #a6a6a6;
+        margin-right: 15px;
+        width: 140px;
+    }
+
+.JC28TableWidth {
+    max-width: 1310px !important;
+    min-width: 1310px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/***************************JC28UriageList売上リスト画面_YG start*************************************/
+.col-sm-0 {
+    width: 89px;
+}
+
+.gridLines td {
+    border-bottom: 1px solid Gray;
+    border-bottom-color: lightgray;
+}
+
+/*.gridPager td {
+    border-bottom: 0;
+    font-size: 12px;
+}
+
+.cssPager span {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.cssPager td {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.cssPager a {
+    text-decoration: none;
+}
+
+    .cssPager a:hover {
+        text-decoration-line: underline;
+    }*/
+
+.JC27gridPager a, .JC27gridPager span {
+    margin-top: 20px;
+    display: block;
+    height: 20px;
+    width: 25px;
+}
+
+.JC27gridPager a {
+    display: block;
+    vertical-align: middle;
+    text-decoration: none;
+    margin-bottom: 2px;
+    font-size: 12px;
+    color: #337AFF;
+}
+
+.JC27gridPager span {
+    display: block;
+    text-decoration: none;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.JC27gridPager a:hover {
+    text-decoration-line: underline;
+}
+
+.JC02Star-color {
+    color: red;
+}
+
+.JC28DropDownCol {
+    min-width: 30px;
+    max-width: 30px;
+    width: 30px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC28CodeCol, .JC28CodeHeaderCol {
+    /*min-width: 95px;
+    max-width: 95px;*/
+    width: 95px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC28NameCol, .JC28NameHeaderCol {
+    /*min-width: 150px;
+    max-width: 150px;*/
+    width: 150px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC28JoutaiCol, .JC28JoutaiHeaderCol {
+    /*min-width: 80px;
+    max-width: 80px;*/
+    width: 80px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC28KingakuCol, .JC28KingakuHeaderCol {
+    /*min-width: 110px;
+    max-width: 110px;*/
+    width: 110px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    font-size: 13px;
+}
+
+.JC27UriageGridTankaHeaderCol {
+    min-width: 100px;
+    /*max-width: 100px;*/
+    width: 100px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC34JokenDiv {
+    /*border: 1px solid rgb(91, 155, 213);*/
+    /*border: 1px solid rgba(0, 0, 0, 0.2);*/
+    border: 1px solid #495057;
+    border-radius: 8px;
+    padding: 0 10px 3px 5px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.JC34UriageKensakuDiv {
+    /*min-width: 920px !important;
+    max-width: 920px !important;
+    left: 50%;
+    border: 1px solid #808080;
+    border-radius: 12px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;*/
+    min-width: 950px !important;
+    max-width: 950px !important;
+    left: 50%;
+    border: 1px solid #808080;
+    border-radius: 12px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 30px 5px 10px;
+}
+
+
+.JC34GridItem {
+    border-bottom: 1px solid lightgray;
+}
+
+    .JC34GridItem:hover {
+        background-color: rgb(235, 235, 245) !important;
+    }
+
+.gvUriageSyohin {
+    margin-bottom: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.JC34JishaTantou {
+    margin-left: 10px;
+    background: rgb(255, 255, 255);
+    font-size: 13px;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    border: 1px solid #9b9b9b;
+    color: #4b4b4b;
+}
+
+.JC34JishaTantouSelect {
+    margin-left: 10px;
+    background: rgb(255, 255, 255);
+    font-size: 13px;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    border: 1px solid rgb(91, 155, 213);
+    color: rgb(91, 155, 213);
+}
+
+    .JC34JishaTantou:hover, .JC34JishaTantouSelect:hover {
+        background: rgb(209,205,205);
+    }
+
+.JC34GridTextBox {
+    border-radius: 4px;
+    padding: 0px;
+    border: 0.5px solid rgb(155, 155, 155) !important;
+    margin-right: 25px;
+    margin-left: 15px;
+    width: 80px;
+    Font-Size: 14px;
+    text-align: center;
+    color: dimgray;
+}
+
+.JC27UriageDiv, .JC27UriageSettei {
+    max-width: 1390px !important;
+    width: 1390px !important;
+    background-color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+@media only screen and (max-width: 1366px) {
+
+    .JC27UriageDiv, .JC27UriageSettei {
+        max-width: 1310px !important;
+        width: 1310px !important;
+        background-color: #FFF;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+.JC34JokenCross {
+    vertical-align: middle;
+    margin-left: 10px;
+    height: 20px;
+    border: none;
+    color: #495057;
+}
+
+.JC34JokenLabel {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+    display: inline-block;
+}
+
+.JC27AddBtn {
+    width: 70px;
+    background: rgb(242, 242, 242);
+    font-size: 13px;
+    height: 35px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.JC27GrayButton {
+    width: 70px;
+    background: rgb(242, 242, 242);
+    font-size: 13px;
+    height: 35px;
+    border-radius: 6px;
+    border: none;
+}
+
+.JC27UriageGridPludBtnCol, .JC27UriageGridPludBtnHeaderCol {
+    min-width: 40px;
+    /*max-width: 40px;*/
+    width: 40px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC27labellayout {
+    display: inline-block;
+    line-height: 24px;
+    height: 20px;
+    /*padding: 0px 4px;*/
+    cursor: pointer;
+    padding-bottom: 2px;
+    padding-top: 1px;
+}
+
+.JC27BorderColor {
+    border-color: gray;
+}
+
+.JC34labellayout {
+    margin-bottom: 5px;
+}
+
+.JC34labellayout1 {
+    height: 40px;
+    cursor: pointer;
+}
+
+.JC34labellayout2 {
+    height: 30px;
+}
+
+
+.JC34UriageListDiv {
+    max-width: 1390px !important;
+    width: 1390px !important;
+    background-color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+@media only screen and (max-width: 1366px) {
+
+    .JC34UriageListDiv {
+        max-width: 1310px !important;
+        width: 1310px !important;
+        background-color: #FFF;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+.JC34KensakuJoken {
+    padding-left: 15px;
+    padding-right: 20px;
+    margin-top: 15px;
+    max-width: 1330px !important;
+    display: block;
+}
+
+
+
+.JC34UriageSyosaiButton {
+    background: transparent;
+    background-image: url(../Img/expand-more-1782315-1514165.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    text-align: left;
+    font-size: 13px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid #a6a6a6;
+    padding-left: 4px;
+}
+
+.JC01Login {
+    max-width: 660px !important;
+    width: 660px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 1160px) {
+
+    .JC01Login {
+        max-width: 463px !important;
+        width: 463px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.GridView1 {
+    /*max-width: 98% !important;*/
+    width: 98% !important;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+    table-layout: fixed;
+}
+
+.JC27GridTextBox {
+    border-radius: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 0.5px solid rgb(155, 155, 155) !important;
+}
+
+/*.JC27UriageGridPludBtnCol, .JC27UriageGridPludBtnHeaderCol {
+    min-width: 34px;
+    max-width: 34px;
+    width: 34px;
+    line-height: 0px;
+    font-size: 13px;
+}*/
+
+.JC27UriageGridSyohinCodeCol, .JC27UriageGridSyohinCodeHeaderCol {
+    min-width: 95px;
+    /*max-width: 95px;*/
+    width: 95px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC27UriageGridHeaderStyle {
+    text-align: left !important;
+    background-color: rgb(242,242,242);
+    border: 2px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-color: white;
+    /*border-right: 1px solid white;*/
+}
+
+.JC27UriageGridSyuryoCol, .JC27UriageGridSyuryoHeaderCol {
+    min-width: 70px;
+    /*max-width: 70px;*/
+    width: 70px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC27UriageGridTaniCol, .JC27UriageGridTaniHeaderCol {
+    min-width: 55px;
+    /*max-width: 55px;*/
+    width: 55px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC27UriageGridSyohinNameCol, .JC27UriageGridSyohinNameHeaderCol {
+    min-width: 250px;
+    /*max-width: 250px;*/
+    width: 250px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC27UriageGridKingakuCol, .JC27UriageGridKingakuHeaderCol {
+    min-width: 102px;
+    /*max-width: 102px;*/
+    width: 102px;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+
+/***************************JC28UriageList売上リスト画面_YG end*************************************/
+
+
+
+
+/**************************************ナンG start **************************************************/
+/***************************JC99Navbar start*****************************************/
+.nav-item-custom1 a:hover {
+    cursor: pointer;
+    background-color: rgb(191,191,191);
+}
+
+.nav-item a:hover {
+    color: white;
+    cursor: pointer;
+    background-color: #2E75B6;
+}
+
+.lnkbtncss {
+    height: 40px;
+    padding-left: 23px !important;
+    padding-right: 23px !important;
+}
+
+.nav2Hidecss {
+    display: none;
+}
+
+.nav2Showcss {
+    display: block;
+}
+
+.nav2 {
+    flex-wrap: nowrap;
+}
+
+.fixedheader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.profile-dropdown {
+    top: 33px !important;
+}
+
+.profile-toggle::after {
+    margin-left: 1em !important;
+}
+
+.nav-dropdown {
+    top: 37px !important;
+}
+
+@media(max-width:1024px) {
+    #navbar {
+        background-color: rgba(91,155,213,1);
+    }
+}
+/***************************JC99Navbar end *****************************************/
+/***************************JC07HomeList start *************************************/
+
+.JC07tooltip {
+    position: relative;
+    display: inline;
+    text-decoration: none;
+    left: 2px;
+    top: 0px;
+}
+
+    .JC07tooltip:hover:before {
+        border: solid;
+        border-color: transparent black;
+        border-width: 6px 6px 6px 0px;
+        content: "";
+        left: 10px;
+        top: 0px;
+        position: absolute;
+        border-left: 10px solid transparent;
+        border-right: 30px solid transparent;
+        border-bottom: 10px solid black;
+        opacity: 0.4;
+    }
+
+    .JC07tooltip:hover:after {
+        background: black;
+        background: black;
+        border-radius: 5px;
+        color: #fff;
+        width: 150px;
+        left: 0px;
+        top: 16px;
+        content: attr(alt);
+        position: absolute;
+        padding: 5px 15px;
+        font-size: 13px;
+        text-align: left;
+        opacity: 0.4;
+    }
+
+.JC07MitsuDirectCreat {
+    background-image: url('Img/hatena.png');
+    Height: 14px;
+    Width: 14px;
+}
+
+.JC07btnpadding {
+    padding: 0px 16px 0px 16px;
+    height: 35px;
+}
+
+.JC07HyojiItemSettingBtn {
+    background: rgb(255, 255, 255);
+    font-size: 13px;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid #a6a6a6;
+    padding: 6px 12px 6px 12px;
+    letter-spacing: 1px;
+    height: 35px !important;
+    max-height: 35px !important;
+}
+
+    .JC07HyojiItemSettingBtn:hover {
+        background: rgb(209,205,205);
+    }
+
+.JC07GridCopyButton {
+    width: 65px;
+    background: rgb(242, 242, 242);
+    font-size: 13px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+}
+
+    .JC07GridCopyButton:hover {
+        background: rgb(209,205,205);
+    }
+
+table.pointercss td {
+    cursor: pointer;
+}
+
+table.Bukkenhover tr :first-child:hover :hover td {
+    background: rgb(235, 235, 245) !important;
+}
+
+table.hover tbody tr table tr:hover {
+    background: rgb(235, 235, 245) !important;
+}
+
+table.RowHover tr:hover td {
+    background: rgb(235, 235, 245) !important;
+}
+
+.JC07msgM {
+    width: 1000px;
+    margin-left: 145px !important;
+}
+
+.JC07newlink {
+    text-decoration-line: underline;
+}
+
+.JC07msg {
+    height: 150px;
+    border: 1px solid gainsboro;
+}
+
+.preventHover:hover {
+    background: White !important;
+    width: 100%;
+}
+
+.center {
+    padding-top: 23px;
+    text-align: center;
+}
+
+.Hidecss {
+    display: none;
+}
+
+.NavbarFont {
+    font-family: "Hiragino Sans", "Open Sans", "Meiryo", "Hiragino Kaku Gothic Pro", "メイリオ", "MS ゴシック", "sans-serif";
+    font-size: 14px;
+}
+
+.JC07Labelcss {
+    width: 100%;
+    white-space: nowrap;
+    font-size: 13px;
+}
+
+.JC07Divcss {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 13px;
+    padding-top: 7px !important;
+}
+
+.gridHeaderDiv1 {
+    padding-left: 185px;
+}
+
+.gridHeaderDiv2 {
+    padding-right: 185px;
+}
+
+.gvbukkencss {
+    min-width: 1000px;
+}
+
+.imagecss {
+    height: 150px;
+    width: 150px;
+}
+
+.JC07Selected_row {
+    background-color: rgb(235, 235, 245) !important;
+}
+
+.JC07hover_row {
+    background-color: rgb(235, 235, 245) !important;
+}
+
+.dpoption {
+    top: 22px !important;
+}
+
+.JC07DropDownOpt {
+}
+
+@media only screen and (max-width: 1366px) {
+    .JC07msgM {
+        margin-left: 100px !important;
+    }
+
+    .gridHeaderDiv1 {
+        padding-left: 150px;
+    }
+
+    .gridHeaderDiv2 {
+        padding-right: 150px;
+    }
+}
+/***************************JC07HomeList end **************************************/
+/***************************JC08 表示項目設定 start ******************************/
+.gridViewRow td {
+    padding-bottom: 10px;
+}
+
+.JC08sonotapop {
+    margin: 3% 3% 3% 7.5%;
+}
+
+
+.JC08btnHeaderCross {
+    margin-top: 5px;
+    margin-right: 25px
+}
+
+#lbl_header {
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.div_data {
+    width: 80%;
+}
+
+.RadiusIframe_hyouji {
+    border-radius: 10px;
+}
+
+.J06Div_hyouji {
+    background-color: white;
+}
+
+.titleStyle {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.titleLine {
+    border-bottom: 8.5px solid rgb(230, 230, 230); /*change 0.5px to 8.5px by テテ 20211005*/
+}
+
+.hyoujirow {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.btn_save {
+    width: 123px;
+    height: 30px;
+}
+
+.btn_cancle {
+    width: 125px;
+    height: 32px;
+    margin-left: 10px;
+}
+
+.JC08_btn {
+    text-align: center;
+    border: none;
+    font-size: 13px;
+    border-radius: 6px;
+    background: rgba(0,113,188,1);
+    color: rgb(255, 255, 255);
+    padding: 0 16px;
+}
+
+.txt-style {
+    font-size: 14px;
+}
+/*20220202 add thelthel start*/
+.btnDrag {
+    width: 30px !important;
+    cursor: pointer;
+    background-color: #eee;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.btnDragDisable {
+    color: #DDDDDD !important;
+    background-color: #f8f9fab3;
+    width: 30px !important;
+    cursor: pointer;
+    /*background-color: #eee;*/
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+/*20220202 add thelthel end*/
+@media(max-width:375px) {
+
+    .titleStyle {
+        width: 60%;
+    }
+}
+
+.HyoujiSettingIframe {
+    border-width: 0px !important;
+    width: 550px !important;
+    background-color: white;
+}
+
+.bukkeniframeStyle {
+    height: 515px !important;
+}
+
+.mitsumoriiframeStyle {
+    height: 675.188px !important;
+}
+
+.uriageiframeStyle {
+    height: 590px !important;
+}
+
+.shouhiniframeStyle {
+    /*height: 630px !important;*/
+    height: 670px !important; /*20220131 change by ThelThel*/
+}
+
+@media(max-width:1366px) {
+    .mitsumoriiframeStyle {
+        margin-top: 60px;
+    }
+
+    .shouhiniframeStyle {
+        /*height: 630px !important;*/
+        height: 634px !important; /*20220131 change by ThelThel*/
+    }
+}
+
+@media(max-width:1024px) {
+    .gridHeaderDiv1 {
+        padding-left: 40px;
+    }
+
+    .gridHeaderDiv2 {
+        padding-right: 40px;
+    }
+}
+
+@media(max-width:768px) {
+    .gridHeaderDiv1 {
+        padding-left: 20px;
+    }
+
+    .gridHeaderDiv2 {
+        padding-right: 20px;
+    }
+}
+
+@media(max-width:375px) {
+
+    .HyoujiSettingIframe {
+        width: 360px !important;
+    }
+
+    .bukkeniframeStyle {
+        height: 506.062px !important;
+    }
+
+    .mitsumoriiframeStyle {
+        height: 666.188px !important;
+    }
+
+    .shouhiniframeStyle {
+        height: 621px !important;
+    }
+}
+/***************************JC08 表示項目設定 end ********************************/
+/***************************JC25KyotenList **************************************/
+.sonotapop {
+    margin: 15px 3% 3% 5.5%;
+}
+
+.btn-icons {
+    color: black;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.kyotentitleStyle {
+    width: 70%;
+    font-size: 14px !important;
+    color: rgb(75,75,75);
+    margin: 20px auto;
+}
+
+.KyotenPopupStyle {
+    height: 90vh;
+    max-height: 900px;
+    position: absolute;
+    width: 715px;
+    margin-bottom: 2px;
+}
+
+.kyotengridViewRow td {
+    padding-bottom: 20px;
+}
+
+
+/*.JCjoytaiAddButton {
+    width: 70px;
+    background: rgb(242, 242, 242);
+    font-size: 13px;
+    height: 37px;
+    border-radius: 6px;
+    border: none;
+    margin-left: 10px;
+    
+}
+
+.JCjoytaiAddButton:hover {
+    background: rgb(209,205,205);
+}*/
+
+.divmargin {
+    margin-top: 3%
+}
+
+.bfieldcss {
+    display: none;
+}
+
+.EditedPopup {
+    margin-left: 6px;
+}
+
+.JCKyotenListEditedPopup {
+    margin-left: 0;
+    padding: 0px 10px 0px 25px;
+    /*box-shadow: 5px 5px 15px #e6e6e6;*/
+}
+
+.JCEditedPopup {
+    margin-left: 0;
+    padding: 0px 10px 0px 114px;
+    /*box-shadow: 5px 5px 15px #e6e6e6;*/
+}
+
+.JCEditedPopup_1 {
+    margin-left: 0;
+    padding: 0px 8px 5px 7px;
+    /*top:157px!important;*/
+    /*box-shadow: 5px 5px 15px #e6e6e6;*/
+}
+
+.fontcss {
+    font-family: "Hiragino Sans", "Open Sans", "Meiryo", "Hiragino Kaku Gothic Pro", "メイリオ", "MS ゴシック", "sans-serif";
+    font-size: 14px;
+}
+/*#Footer {
+    background-color: #666;
+    color: #eee;
+}*/
+
+@media (max-width: 1920px) {
+    .kyotenpopup {
+        margin-left: 39%;
+    }
+
+    .KyotenPopupStyle {
+        height: 88vh;
+        max-height: 900px;
+        position: absolute;
+        width: 715px;
+        margin-bottom: 2px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .kyotenpopup {
+        margin-left: 34.4%;
+    }
+}
+/***************************JC25KyotenNyuuryoku **************************************/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.JC25DelImg {
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 35px !important;
+    height: 30px !important;
+    line-height: 23px !important;
+    background-color: gray;
+}
+
+.JC25Kt_NyuurokuPreview {
+    /* 20220429 maythu delete */
+    /*width: 100%;*/
+    /*height: 38px;*/
+    /* 20220503 maythu add start  */
+    width: 98px;
+    height: 30px;
+    background: rgb(242, 242, 242);
+    font-size: 13px;
+    border-radius: 3px;
+    border: none;
+    /*padding: 6px 12px 6px 12px;*/ /* 20220505 maythu delete */
+    padding: 6px 10px 6px 10px; /* 20220505 maythu add */
+    letter-spacing: 1px;
+    /* 20220503 maythu add end  */
+}
+
+.kyoutennewtitleStyle {
+    width: 86%;
+    font-size: 14px !important;
+    color: rgb(75,75,75);
+    margin: 20px 0;
+    padding: 0;
+}
+
+.JC25KyotenNyuuryokuDiv {
+    margin: 20px 0px 0px 20px;
+}
+
+.divKyotenmargin {
+    margin-top: 20px;
+}
+
+.JC25Kt_NyuurokuImg {
+    /*width: 288px;
+    height: 265px;*/
+    /* 20220425 maythu delete start */
+     /*width: 350px;
+    height: 150px;*/
+    /*border: 0.5px solid rgb(155, 155, 155);*/
+    /* 20220425 maythu delete end */
+    /* 20220426 maythu add start */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin:0px !important;
+    border:0px !important;
+    /* 20220426 maythu add end */
+}
+
+.logotextcss {
+    background-color: #dddddd !important;
+}
+
+.logotextstyle {
+    height: 28px !important;
+    font-size: 13px !important;
+    background-color: rgb(255,255,255) !important;
+    margin: 0px 3px 0px 3px;
+    border-radius: 2px !important;
+    padding: 0 !important;
+    caret-color: black;
+}
+
+.JC25Kt_NyuryokuTxtArea {
+    padding: 0;
+    /*margin: 0;*/
+    /*margin-top: 10px;*/ /* 20220503 maythu delete */
+    margin-top: 7px; /* 20220503 maythu add */
+    width: 350px;
+    /*height: 150px;*/ /* 20220503 maythu delete */
+    resize: none; /* 20220503 maythu add */
+    height: 120px; /* 20220505 maythu add */
+}
+
+.JC25lbllogo {
+    padding-right: 66px;
+    margin-left: 0;
+    padding-left: 0px;
+    font-size: 13px;
+}
+
+.fIKt_Nyuroku {
+    width: 300px;
+    height: 300px;
+    z-index: 99;
+    font-size: 0px;
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    cursor: pointer;
+}
+
+.JCKt_NyuurokuFileInput {
+    margin: -300px 0 0 -150px;
+}
+
+.error {
+    font-family: "Hiragino Sans", "Open Sans", "Meiryo", "Hiragino Kaku Gothic Pro", "メイリオ", "MS ゴシック", "sans-serif";
+    font-size: 11px;
+    color: red;
+}
+
+#Footer {
+    bottom: 0px;
+    background-color: #666;
+    width: 100%;
+    margin: 0px;
+    color: #eee;
+}
+
+/* 20220503 maythu add start */
+.JC25Kt_NyuurokuShokimodoru {
+    /*width: 110px;
+    height: 38px;*/
+    width: 98px;
+    height: 30px;
+    background: rgb(242, 242, 242);
+    font-size: 13px;
+    border-radius: 3px;
+    border: none;
+    /*padding: 6px 12px 6px 12px;*/ /* 20220505 maythu delete */
+    padding: 6px 10px 6px 10px; /* 20220505 maythu add */
+    letter-spacing: 1px;
+}
+
+    .JC25Kt_NyuurokuPreview:hover, .JC25Kt_NyuurokuShokimodoru:hover {
+        background: rgb(209,205,205);
+    }
+
+.JC25Kt_NyuryokuTxtBox {
+    width: 468px;
+    height: 30px !important;
+}
+
+.JC25Kt_NyuryokuSmallTxtBox {
+    width: 194px;
+    height: 30px;
+}
+
+/* 20220503 maythu add end */
+
+/***************************JC25Shiaraihouhou **************************************/
+.shiaraititleStyle {
+    width: 74%;
+    margin: 20px 20px;
+    padding: 0 0 0 25px;
+}
+
+.smgridViewRow td {
+    padding-bottom: 20px;
+}
+
+
+
+#smFooter {
+    /*position: absolute;*/
+    bottom: 0px;
+    background-color: #666;
+    color: #eee;
+}
+
+.divcolor {
+    background-color: #fff
+}
+/***************************JC25YukoKigen **************************************/
+/***************************JC30 物件リスト start ********************************/
+.table1 td {
+    vertical-align: top;
+}
+
+.JC30HeaderCol {
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC30gvbukkencss {
+    width: 1045px;
+    max-width: 1045px;
+    min-width: 1045px;
+}
+
+.JC30NoDataMessageStyle {
+    font-size: 14px;
+    color: rgb(100,100,100);
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 30px;
+    height: 50px;
+    text-align: center;
+}
+
+.JC30BukkenListDiv {
+    min-width: 920px !important;
+    max-width: 920px !important;
+    left: 50%;
+    border: 1px solid #808080;
+    border-radius: 12px;
+    /*height: 173px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.JC30AllBukkenListDiv {
+    min-width: 920px !important;
+    max-width: 920px !important;
+    left: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.JC30TantouKensakuBtn {
+    background: rgb(255, 255, 255);
+    font-size: 13px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid rgb(91, 155, 213);
+    height: 28px !important;
+    margin-right: 20px;
+    color: rgb(91, 155, 213);
+}
+
+    .JC30TantouKensakuBtn:hover {
+        background: rgb(209,205,205);
+    }
+
+.JC30TantouKensakuBtnNull {
+    background: rgb(255, 255, 255);
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid #9b9b9b;
+    height: 28px !important;
+    margin-right: 20px;
+    color: black;
+}
+
+    .JC30TantouKensakuBtnNull:hover {
+        background: rgb(209,205,205);
+    }
+
+.JC30JokenDiv {
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 8px;
+    /*padding: 4px 10px 5px 5px;*/
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    height: 30px;
+    /*// padding-left:0px;*/
+}
+
+.JC30JokenLabel {
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    /*margin-right: 10px !important;
+    margin-left: 10px !important;
+    text-align: center;*/
+    color: #495057;
+}
+
+.JC30JokenCross {
+    vertical-align: middle;
+    /* margin-left: 10px !important;
+    margin-right: 10px !important;
+    height: 20px;
+    border: none;
+    color: #495057;*/
+    margin-left: 5px;
+    margin-right: 3px;
+    height: 20px;
+    border: none;
+    color: #495057;
+}
+
+#btnBukkenNew {
+    font-size: 13px;
+    height: 35px;
+    border-radius: 12px;
+    Width: 160px;
+}
+
+.JC30BukkenTokuisaki {
+    width: 160px !important;
+    max-width: 160px;
+    height: 28px !important;
+    margin-right: 20px;
+}
+
+.JC30BukkenTantousha {
+    width: 120px !important;
+    max-width: 120px;
+    height: 28px !important;
+    margin-right: 20px;
+}
+
+.JC30BukkenCodeTextBox {
+    width: 110px !important;
+    max-width: 110px;
+    height: 28px !important;
+    margin-right: 20px;
+}
+
+.JC030SaveBtn {
+    font-size: 13px;
+    height: 36px;
+    border-radius: 8px;
+    margin-right: 13px;
+}
+
+.JC30GrayButton {
+    width: 65px;
+    background: rgb(242, 242, 242);
+    font-size: 13px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+}
+
+    .JC30GrayButton:hover {
+        background: rgb(209,205,205);
+    }
+
+.JC30RedButton {
+    width: 65px;
+    background: rgb(255, 0, 0);
+    font-size: 13px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+}
+
+.fontcss {
+    font-family: "Hiragino Sans", "Open Sans", "Meiryo", "Hiragino Kaku Gothic Pro", "メイリオ", "MS ゴシック", "sans-serif";
+    font-size: 13px;
+}
+
+.JC30DateEnd {
+    width: 110px !important;
+    max-width: 110px;
+    height: 28px !important;
+    margin-left: 2.1px;
+}
+
+td {
+    cursor: pointer;
+}
+
+.JC09JC30RedButtonRedButton:hover {
+    background: rgb(158,41,41);
+}
+
+.JC07Selected_row {
+    background-color: rgb(235, 235, 245) !important;
+}
+
+.JC07hover_row {
+    background-color: rgb(235, 235, 245) !important;
+}
+
+
+/***************************JC30 物件リスト end**********************************/
+
+
+/***************************JC31MitsumoriList start ******************************/
+.JC31MitumoriList {
+    min-width: 1050px !important;
+    max-width: 1050px !important;
+    left: 50%;
+    border: 0px;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 13px;
+    margin-top: 5px;
+}
+
+.JC31MitumoriKensakuDiv {
+    min-width: 950px !important;
+    max-width: 950px !important;
+    left: 50%;
+    border: 1px solid #808080;
+    border-radius: 12px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 30px 5px 23px;
+}
+
+.JC31MitumoriSyosaiButton {
+    background: transparent;
+    background-image: url(../Img/expand-more-1782315-1514165.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    text-align: left;
+    font-size: 13px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid #a6a6a6;
+    padding-left: 4px;
+}
+
+.JC31JokenDiv {
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 8px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    height: 30px;
+}
+
+.JC31Mitumorimemo {
+    width: 180px !important;
+    max-width: 180px;
+    height: 28px !important;
+    margin-right: 20px;
+}
+
+.JC31ButtonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.gvRowStyle td {
+    border-bottom: solid 1px LightGray;
+    height: 40px;
+}
+
+.JC31ClearBtn {
+    margin-left: 10px;
+    background: rgb(255, 255, 255);
+    font-size: 13px;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    border: 1px solid rgb(91, 155, 213);
+    color: rgb(91, 155, 213);
+    margin-right: 20px;
+}
+
+.JC31TantouBtn {
+    margin-left: 10px;
+    background: rgb(255, 255, 255);
+    font-size: 13px;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    border: 1px solid #9b9b9b;
+    color: #4b4b4b;
+    margin-right: 20px;
+}
+
+.JC31MitumoriCodeCol {
+    width: 100px !important;
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.JC31MeiHeaderCol {
+    min-width: 80px; /*//20220502 Added By phoo*/
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC31MitumoriTokuisaki {
+    width: 200px !important;
+    max-width: 200px;
+    height: 28px !important;
+    margin-right: 20px;
+}
+
+.JC31NoDataMessageStyle {
+    font-size: 14px;
+    color: rgb(100,100,100);
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 30px;
+    height: 50px;
+    text-align: center;
+}
+
+.JC31OptionDiv {
+    margin-right: 2% !important;
+}
+
+@media only screen and (max-width: 1366px) {
+    .JC31OptionDiv {
+        margin-right: 0 !important;
+    }
+}
+/***************************JC31MitsumoriList end ******************************/
+
+/***************************JC40Shiiresaki start ******************************/
+.JC40TableWidth {
+    max-width: 1000px !important;
+    min-width: 1000px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.auto-style2 {
+    width: 1000px;
+    height: 340px;
+}
+
+.JC40SaveBtn {
+    font-size: 13px;
+    height: 36px;
+    border-radius: 4px;
+    margin-right: 13px;
+}
+
+.JC40MeiTextBox {
+    width: 350px !important;
+    max-width: 350px;
+    height: 26px !important;
+}
+
+.JC40Mei_RTextBox {
+    width: 250px !important;
+    max-width: 250px;
+    height: 26px !important;
+}
+
+.JC40yubenBangoTextBox {
+    width: 100px !important;
+    max-width: 100px;
+    height: 28px !important;
+}
+
+.JC40denwaTextBox {
+    width: 150px !important;
+    max-width: 150px;
+    height: 26px !important;
+}
+
+.JC40shiiresakiNewBtn {
+    margin-left: 80px;
+}
+
+.JC40TextArea {
+    padding: 3px !important;
+    width: 355px !important;
+    max-width: 355px;
+    line-height: 13px;
+    font-size: 13px !important;
+    resize: none;
+    word-break: break-all;
+    border: 0.5px solid rgb(155, 155, 155) !important;
+}
+
+.JC40GridPanel {
+    width: 1000px;
+    min-width: 1000px;
+}
+
+.JC40ddl {
+    padding: 3px !important;
+    line-height: 13px;
+    font-size: 13px !important;
+    resize: none;
+    border: 0.5px solid rgb(155, 155, 155) !important;
+    margin-left: 5px;
+}
+
+.JC40ddl1 {
+    padding: 3px !important;
+    line-height: 13px;
+    font-size: 13px !important;
+    resize: none;
+    border: 0.5px solid rgb(155, 155, 155) !important;
+    margin-right: 5px;
+    text-align: right;
+}
+
+.JC40ddl2 {
+    padding: 3px !important;
+    line-height: 13px;
+    font-size: 13px !important;
+    resize: none;
+    border: 0.5px solid rgb(155, 155, 155) !important;
+    margin-right: 5px;
+}
+
+.JC40GridEditDelteCol {
+    width: 210px;
+    min-width: 210px;
+    max-width: 210px;
+}
+
+.GridViewContainer {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.noResize {
+    resize: none;
+}
+
+.DisplayNone {
+    display: none;
+}
+/***************************JC41Shiiresakikensaku start ******************************/
+.ShiiresakikensakuDiv {
+    min-width: 950px !important;
+    max-width: 950px !important;
+    left: 50%;
+    border: 1px solid #808080;
+    border-radius: 12px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    padding: 10px 35px 10px 20px;
+}
+
+.ShiiresakiGridViewDiv {
+    max-width: 1355px !important;
+    width: 1355px;
+    margin-left: 13px;
+    overflow: auto;
+    overflow-y: hidden;
+}
+
+.ShiiresakiClearBtn {
+    background: rgb(255, 255, 255);
+    font-size: 13px;
+    border-radius: 4px;
+    border: none;
+    border: 1px solid rgb(91, 155, 213);
+    color: rgb(91, 155, 213);
+    height: 35px;
+}
+
+.JC41TextBox {
+    width: 400px !important;
+    max-width: 400px;
+    height: 28px !important;
+    margin-right: 20px;
+}
+
+.JC41HeaderCol {
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC41CodeHeaderCol {
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.JC41_cancelbtn {
+    height: 37px;
+    text-align: center;
+    border: none;
+    font-size: 13px;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    width: 120px;
+    padding-left: 10px;
+    padding-left: 10px;
+}
+
+/***************************JC41Shiiresakikensaku end ******************************/
+/***************************JC37Syouhin start ******************************/
+.JC37SyouhinTourokuWidth {
+    max-width: 1050px !important;
+    min-width: 1050px !important;
+}
+
+.JC37SyouhinMeiTourokuTextBox {
+    width: 400px !important;
+    max-width: 400px;
+    height: 28px !important;
+}
+
+JC37SyouhinCodeTourokuTextBox {
+    width: 160px !important;
+    max-width: 160px;
+    height: 28px !important;
+}
+
+.JC37SyouhinTd3 {
+    width: 120px;
+    max-width: 120px !important;
+    padding-left: 20px;
+}
+
+.JC37SyouhinTextArea {
+    /*padding: 3px !important;*/
+    width: 400px !important;
+    max-width: 400px;
+    line-height: 13px;
+    font-size: 13px !important;
+    resize: none;
+    word-break: break-all;
+    border: 0.5px solid rgb(155, 155, 155) !important;
+    margin-top:5px;
+}
+
+.JC37CHK input {
+    width: 16px;
+    height: 16px;
+    vertical-align:top;
+}
+/***************************JC37Syouhin end ******************************/
+/*/***************************JC38Daibunrui start************************************/
+.daibunruititleStyle {
+    width: 50%;
+    padding: 0 0 0 0px;
+}
+
+.JC08DaibtnHeaderCross {
+    margin-top: 5px;
+    margin-left: 105px;
+}
+
+.JC38DaiPopup {
+    margin-left: 0;
+    padding: 0px 10px 0px 85px;
+    /*box-shadow: 5px 5px 15px #e6e6e6;*/
+}
+/***************************JC38Daibunrui end**************************************/
+/**************************************大分類/中分類 start ****************************************************/
+.DaiPopup {
+    left: 265px !important;
+}
+
+.daigridViewRow td {
+    /*padding-bottom: 19px;*/
+    padding: 9px 0;
+}
+
+.daichuuPopupScrollDiv {
+    top: -27px !important;
+}
+
+.chuuPopupStyle {
+    height: 90vh;
+    max-height: 900px;
+    position: absolute;
+    width: 715px;
+    margin-bottom: 2px;
+}
+
+.chuugridViewRow td {
+    /*padding-bottom: 19px;*/
+    padding: 9px 0;
+}
+
+@media (max-width: 1920px) {
+
+    .chuuPopupStyle {
+        height: 100vh;
+        position: absolute;
+        width: 503px;
+        margin-bottom: 2px;
+        /*margin-left:-10px;*/
+    }
+
+    .daiPopupStyle {
+        height: 100vh;
+        width: 503px;
+    }
+}
+/**************************************大分類/中分類 end ****************************************************/
+/**************************************ナンG end ****************************************************/

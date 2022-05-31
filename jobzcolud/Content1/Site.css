@@ -1,0 +1,158 @@
+﻿/* Move down content because we have a fixed navbar that is 82px tall */
+body {
+    padding-top: 82px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding: 0px;
+    max-width: calc(100vw);
+    min-height: calc(100vh - 82px);
+    background-color: rgb(249, 247, 245);
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 350px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+}
+
+.custom-navbar {
+    margin-top: 40px;
+    height: 40px;
+    background-color: rgb(91,155,213);
+}
+
+.custom-navbar1 {
+    margin-top: 30px;
+    height: 36px;
+    background-color: rgb(242,242,242);
+}
+.custom-navbar2 {
+    height: 40px;
+    background-color: rgb(242,242,242);
+}
+
+.custom-navbar-height {
+    padding: 0px 0em;
+}
+
+.navbar,.navbar1 {
+    z-index: 90;
+}
+
+    .navbar + .navbar, .navbar1 + .navbar1 {
+        z-index: 80;
+        padding: 0 0.2em;
+    }
+
+.navbar-brand-custom {
+    padding: 0;
+    font-size: 13px;
+}
+
+.nav-user-lbl {
+    margin-top: 4px;
+    line-height: 20px;
+}
+
+.nav-item-custom {
+    height: 40px;
+    padding: 0;
+    margin-left: 6px;
+    margin-right: 6px;
+    color:white;
+}
+
+.nav-item-custom a:hover {
+    height: 40px;
+    background-color: rgb(46,117,182) !important;
+}
+
+.nav-item-custom1 a:hover {
+    height: 36px;
+    background-color: rgb(191,191,191) !important;
+}
+
+.nav-home-custom {
+    padding: 0.32em 0.7em !important;
+}
+
+.nav-btn-custom {
+    height: 40px;
+    padding: 0.5em 0.4em !important;
+    color:black;
+}
+
+.nav-btn-custom1 {
+    height: 36px;
+    padding: 8px 24px !important;
+    color: black;
+    font-size:14px;
+}
+
+.nav-btn-custom2 {
+    height: 40px;
+    color: #007bff;
+    margin-right: 23px;
+    
+}
+.navbtn2 {
+    color: #007bff;
+}
+    .nav-btn-custom2:hover, .navbtn2:hover {
+        background-color: rgb(46,117,182);
+        color: white;
+    }
+
+.navbar-brand-custom-text {
+    color: rgb(0,113,188);
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.nav-imgbtn-custom {
+    padding: 0.32em 0.5em;
+}
+
+.dropdown-item-custom {
+    font-family: "Hiragino Sans", "Open Sans", "Meiryo", "Hiragino Kaku Gothic Pro", "メイリオ", "MS ゴシック", "sans-serif";
+    font-size: 13px;
+}
+
+    .dropdown-item-custom:hover, .dropdown-item-custom1:hover,.nav-btn-custom2:hover {
+        background-color: rgb(46,117,182);
+    }
+
+.dropdown-item-custom1 {
+    width:180px;
+    font-size: 13px;
+    padding: 0.25rem 0.5em;
+    line-height: 20px;
+    height:32px;
+    margin:0.2em 0em;
+    font-family: "Hiragino Sans", "Open Sans", "Meiryo", "Hiragino Kaku Gothic Pro", "メイリオ", "MS ゴシック", "sans-serif";
+    font-size: 13px;
+}
+
+.dropdown-menu-custom {
+    /*width: 180px;*/
+    margin-top: 0px;
+    border-radius: 6px;
+    box-shadow: 0px 3px 4px rgb(153,153,153);
+}
+
+.dropdown_separator {
+    border-top: 0.5px solid rgba(0, 0, 0, 0.15);
+    margin: 4px 0px;
+}

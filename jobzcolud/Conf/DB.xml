@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<params>
+  <!--
+    DATA_SOURCE           : 接続先DBサーバーを設定
+    DATABASE              : 接続先DB
+    PASSWORD              : DB接続ユーザーパスワード
+    USER_ID               : DB接続ユーザー
+  -->
+  <param name="DATA_SOURCE">localhost</param>
+  <param name="DATABASE">jobzcloud</param>
+  <!--<param name="PASSWORD">hf71v6n2</param>-->
+  <param name="PASSWORD">signjobz</param>
+  <param name="USER_ID">root</param>
+    
+</params>

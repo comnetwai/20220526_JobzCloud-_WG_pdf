@@ -1,0 +1,249 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="JC99NavBar.master.cs" Inherits="jobzcolud.WebFront.JC99NavBar" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<!DOCTYPE html>
+<html lang="ja">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %>JOBZCloud</title>
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+        <%: Scripts.Render("~/scripts/ScriptBundle1") %>
+        <%: Styles.Render("~/style/StyleBundle2") %>
+    </asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="../favicon.ico" rel="shortcut icon" type="image/x-icon" />   
+    <link href="../Content1/bootstrap.css" rel="stylesheet" />   
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+
+       /* .navbar-nav > li > .dropdown-menu 
+        {
+            margin-top: 0;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            display:block;
+            transform: scale(0);
+            transition: ease-out 0.3s;
+                
+         }
+           .dropdown:hover .dropdown-menu 
+        {
+            display:block;
+            transform: scale(1);         
+        }*/
+        .nav-item-custom1 a:hover{
+             cursor: pointer;
+            background-color:rgb(191,191,191);      
+        }
+       
+        .nav-item a:hover
+        {
+            color: white;
+            cursor: pointer;
+            background-color:#2E75B6;                      
+        }
+       
+       .lnkbtncss
+       {            
+           height:40px;  
+           padding-left:23px !important;
+           padding-right:23px !important;
+       }     
+       .nav2Hidecss 
+       {
+          display:none;
+       }
+
+       .nav2Showcss 
+       {
+          display:block;
+       }
+        .nav2 {
+            flex-wrap: nowrap;
+        }
+       .fixedheader 
+       {
+           position:fixed;
+           top:0;
+           width:100%;
+           z-index:100;
+       }
+       .profile-dropdown{
+           top:33px!important;
+       }
+        .profile-toggle::after {
+            margin-left: 1em!important;
+        }        
+       .nav-dropdown{
+           top:37px!important;
+       }
+        @media(max-width:1024px) {
+            #navbar {
+                background-color:rgba(91,155,213,1);
+            }
+        }
+  </style>
+</head>
+
+    <body id="BD_Master" runat="server" style="height:100%;background-color:#d7e4f2;padding-bottom:100px !important;" >
+              
+    <form id="form1" runat="server" style="height:100%;background-color:#d7e4f2;" autocomplete="new-password">
+         <asp:ScriptManager ID="ScriptManager1" EnablePageMethods="True" runat="server">
+            <Scripts>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Path="../Scripts/Common/FixFocus.js" />
+
+            </Scripts>
+        </asp:ScriptManager>
+        <asp:PlaceHolder runat="server">
+            <%: Scripts.Render("~/bundles/jqueryui") %>
+        </asp:PlaceHolder>
+         <div id="div_Nav" runat="server" class="container-fluid  NavbarFont fixedheader" style="background-color:white;margin:0;padding:0;position:fixed;z-index:90;">                         
+               <div  class=" d-flex justify-content-between" style="background-color:white;">
+                        <div><asp:Image ID="imgLogo" runat="server" ImageUrl="~/Img/signjobzlogodemo.png" Style="width:250px;height:40px;"/></div>                 
+                        <div style=" z-index: 91;padding:4px 16px 0px 16px;height:40px;" > 
+                            <nav class="navbar navbar-expand-lg" style="margin:0; padding:0;">
+                                <div class="navbar-collapse collapse" style="margin:0; padding:0;">
+                                <ul class="navbar-nav mr-auto" >
+                                    <li class="nav-item dropdown navlicss NavbarFont">  
+                                          <asp:UpdatePanel ID="updDropDown" runat="server" UpdateMode="Conditional">
+                                            <ContentTemplate>
+                                        <a class="nav-link dropdown-toggle profile-toggle" href="#" id="navbardrop2"   data-toggle="dropdown" runat="server" style="padding-left:23px;padding-right:23px;"></a>
+                                            <div class="dropdown-menu dropdown-menu-right NavbarFont profile-dropdown" style="min-width:1rem;width:8rem;">
+                                                <asp:LinkButton ID="lnkbtnKojiSetting" runat="server" class="dropdown-item NavbarFont" Text="個人情報設定"  OnClick="lnkbtnKojiSetting_Click" ></asp:LinkButton>
+                                                <asp:LinkButton ID="lnkbtnLogoOut" runat="server" class="dropdown-item NavbarFont" Text="ログアウト"  OnClick="lnkbtnLogoOut_Click" ></asp:LinkButton>
+                                            </div>
+                                            </ContentTemplate>
+                                              </asp:UpdatePanel>
+                                    </li>
+                               </ul>
+                            </div>
+                            </nav>
+                            
+                        </div>                
+                    </div>
+              
+                    <%--<div class="form-group row">--%>
+                    <div class="container-fluid" style="margin:0;padding:0;position:fixed;z-index:90;">                        
+                        <%--<asp:Panel ID="Panel1" runat="server" Height="50px" Width="1940px">--%>
+                         <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: rgba(91,155,213,1);padding:0; margin:0;height:40px;">
+
+                          <!-- Collapse button -->
+                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                            aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+
+                          <!-- Collapsible content -->
+                          <div id="navbar" class="collapse navbar-collapse" >
+                            <!-- Links -->
+                            <ul class="navbar-nav mr-auto">
+                              <li class="nav-item ">
+                                 <asp:LinkButton ID="lnkbtnHome" runat="server" class="nav-link text-white lnkbtncss"  style="color:white;"　Text="ホーム"  onClick="lnkbtnHome_Click" > </asp:LinkButton> 
+                              </li>
+
+                                <!-- Dropdown -->
+                              <li class="nav-item dropdown ">
+                                <%--<a class="nav-link text-white lnkbtncss" href="JC30BukkenList.aspx" id="navbardrop"  style="color:white;" data-toggle="dropdown;" runat="server"  aria-haspopup="true" aria-expanded="false">物件</a>--%>
+                                  <asp:LinkButton ID="LK_navbardrop" runat="server" class="nav-link text-white lnkbtncss" data-toggle="dropdown;" aria-haspopup="true" aria-expanded="false" style="color:white;"　Text="物件" OnClick="LK_navbardrop_Click" > </asp:LinkButton> 
+                                <div class="dropdown-menu nav-dropdown"  aria-labelledby="navbardrop">
+                                   <asp:LinkButton ID="lnkBtnBukkenNew" runat="server" class="dropdown-item NavbarFont" Text="物件を新規作成" onClick="lnkBtnBukkenNew_Click" style="font-size:13px;"> </asp:LinkButton> 
+                                   <asp:LinkButton ID="lnkBtnBukkenList" runat="server" class="dropdown-item NavbarFont" Text="物件リスト"  onClick="lnkBtnBukkenList_Click" style="font-size:13px;"> </asp:LinkButton> 
+                                </div>
+                              </li>
+
+                                <!-- Dropdown -->
+                              <li class="nav-item dropdown ">
+                                <%--<a class="nav-link text-white lnkbtncss" href="JC31MitsumoriList.aspx" id="navbardrop1"  style="color:white" data-toggle="dropdown;" runat="server"  aria-haspopup="true" aria-expanded="false">見積</a>--%>
+                                  <asp:LinkButton ID="LK_navbardrop1" runat="server" class="nav-link text-white lnkbtncss"  style="color:white;" data-toggle="dropdown;"  aria-haspopup="true" aria-expanded="false"　Text="見積" OnClick="LK_navbardrop1_Click" > </asp:LinkButton> 
+                                <div class="dropdown-menu nav-dropdown" aria-labelledby="navbardrop1">
+                                    <asp:LinkButton ID="lnkBtnMitsumDirect" runat="server" class="dropdown-item NavbarFont" 　Text="見積をダイレクト作成"  onClick="lnkBtnMitsumDirect_Click" style="font-size:13px;"> </asp:LinkButton> 
+                                    <asp:LinkButton ID="lnkBtnMitsuList" runat="server" class="dropdown-item NavbarFont" Text="見積リスト"  onClick="lnkBtnMitsuList_Click" style="font-size:13px;"> </asp:LinkButton> 
+                                </div>
+                              </li>
+
+                              <li class="nav-item ">
+                                  <asp:LinkButton ID="lnk_Uriage" runat="server" class="nav-link text-white lnkbtncss" Text="売上" style="color:white" onClick="lnkBtnUriageList_Click"></asp:LinkButton>
+                              </li>
+
+                              <li class="nav-item ">
+                                   <asp:LinkButton ID="lnkBtnSetting" runat="server" class="nav-link text-white lnkbtncss" Text="設定" style="color:white" onClick="lnkBtnSetting_Click"></asp:LinkButton>
+                              </li>
+
+                            </ul>
+                            <!-- Links -->
+
+                          </div>
+                          <!-- Collapsible content -->
+
+                        </nav>
+                    </div>
+                       
+         </div>
+           <div id="div2" runat="server" class="container-fluid  NavbarFont" style="padding-top:67px;" >
+               <div class="JC10navbar">
+                      <nav id="navbar2" runat="server" class="navbar navbar-expand " style="background-color: rgb(242,242,242);margin:30px 0px 0px 0px;height:40px;padding-left:0px;">
+                            <ul class="navbar-nav mr-auto ">
+                                 <%--  <li class="nav-item "> --%>                                       
+                                 <li class="nav-item-custom1">
+                                         <asp:LinkButton ID="lnkbtnSubBukken" runat="server" CssClass="nav-link NavbarFont lnkbtncss" Text="物件" ForeColor="Black" ></asp:LinkButton>
+                                 </li>
+                                     <li class="nav-item-custom1">
+                                         <asp:LinkButton ID="lnkbtnSubMitsumori" runat="server" CssClass="nav-link NavbarFont lnkbtncss" Text="見積" ForeColor="Black" ></asp:LinkButton>
+                                 </li>
+                                 <li class="nav-item-custom1">
+                                         <asp:LinkButton ID="lnkbtnSubMitsuPrint" runat="server" CssClass="nav-link NavbarFont lnkbtncss" Text="見積印刷設定" ForeColor="Black"></asp:LinkButton>
+                                 </li>
+                                 <li class="nav-item-custom1">
+                                         <asp:LinkButton ID="lnkbtnSubMitsuUriage" runat="server" CssClass="nav-link NavbarFont lnkbtncss" Text="売上" ForeColor="Black"></asp:LinkButton>
+                                 </li>
+                                 <li class="nav-item-custom1">
+                                         <asp:LinkButton ID="LKB_Shousai" runat="server" CssClass="nav-link NavbarFont lnkbtncss" Text="売上" ForeColor="Black" OnClick="LKB_Shousai_Click"></asp:LinkButton>
+                                 </li>
+                                 <li class="nav-item-custom1">
+                                         <asp:LinkButton ID="LKB_Settei" runat="server" CssClass="nav-link NavbarFont lnkbtncss" Text="伝票印刷設定" ForeColor="Black" OnClick="LKB_Settei_Click"></asp:LinkButton>
+                                 </li>
+                             </ul>            
+                     </nav> 
+               </div>
+         
+        </div>
+       
+         <asp:HiddenField ID="HF_DB" runat="server"/>
+                        
+         <div id="divContent" runat="server" class="container-fluid body-content" style="background-color:#d7e4f2;width:100%">
+             <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+         </div>
+  <%--      <script src="../Scripts/jquery-3.3.1.js"></script>--%>
+        <link href="../Style/cloudflare-jquery-ui.min.css" rel="stylesheet" />
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+        <script type="text/javascript">
+           
+           
+        </script>
+
+                <asp:UpdatePanel ID="updShinkiPopup" runat="server" UpdateMode="Conditional">
+                <ContentTemplate>
+                    <asp:Button ID="btnShinkiPopup" runat="server" Text="Button" Style="display: none" />
+                    <asp:ModalPopupExtender ID="mpeShinkiPopup" runat="server" TargetControlID="btnShinkiPopup"
+                        PopupControlID="pnlShinkiPopupScroll" BackgroundCssClass="PopupModalBackground" BehaviorID="pnlShinkiPopupScroll"
+                        RepositionMode="RepositionOnWindowResize">
+                    </asp:ModalPopupExtender>
+                    <asp:Panel ID="pnlShinkiPopupScroll" runat="server" Style="display: none;height:100%;position:relative;margin-left:auto;margin-right:auto" HorizontalAlign="Center">
+                            <iframe id="ifShinkiPopup" runat="server" scrolling="yes"  style="height:100%;position:absolute;width:1350px;"></iframe>
+                        <asp:Button ID="btn_CloseMitumoriSearch" runat="server" Text="Button" CssClass="DisplayNone" OnClick="btn_CloseMitumoriSearch_Click"/>
+                    </asp:Panel>
+                </ContentTemplate>
+            </asp:UpdatePanel>
+    </form>
+                
+               
+</body>
+</html>

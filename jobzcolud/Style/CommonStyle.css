@@ -1,0 +1,1368 @@
+﻿html, body, p, input[type="button"], input[type="submit"], input[type="reset" ],
+input[type="checkbox" ], input[type="radio" ], input[type="file" ]::-webkit-file-upload-button,
+button, span, label, a{
+    font-family: "Hiragino Sans", "Open Sans", "Meiryo", "Hiragino Kaku Gothic Pro", "メイリオ", "MS ゴシック", "sans-serif";
+}
+
+span, label, p {
+    font-size: 13px;
+    color: rgb(75, 75, 75);
+}
+
+input[type="text" ], input[type="number"], input[type="password"], input[type="numeric"], input[type="email"], input[type="tel"], textarea {
+    font-family: "Hiragino Sans", "Open Sans", "Meiryo", "Hiragino Kaku Gothic Pro", "メイリオ", "MS ゴシック", "sans-serif";
+    color: rgb(100, 100, 100);
+    border: 0.5px solid rgb(155, 155, 155);
+}
+
+input[type="text"], input[type="number"], input[type="password"], input[type="numeric"], input[type="email"], input[type="tel"], /* textbox */
+input[type="checkbox" ], input[type="radio"], select, textarea, a, button,
+input[type="submit"], input[type="image"], input[type="button"], input[type="file" ]::-webkit-file-upload-button:focus {
+    outline: 0 !important;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(155, 155, 155) !important;
+    font-size: 13px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th, td {
+    padding: 0px;
+}
+
+textarea {
+    font-size: 10pt;
+    resize: none;
+}
+
+.inputNoSpin[type=number]::-webkit-inner-spin-button,
+.inputNoSpin[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+input[type="checkbox" ], input[type="radio"], select, button,
+input[type="submit"], input[type="image"], input[type="button"], input[type="file" ]::-webkit-file-upload-button {
+    cursor: pointer;
+}
+
+    input[type="checkbox"] + label {
+        cursor: pointer;
+    }
+
+    input[type="radio"] + label {
+        cursor: pointer;
+    }
+
+    input[type="checkbox" ]:disabled {
+        cursor: default;
+    }
+
+    input[type="radio"]:disabled {
+        cursor: default;
+    }
+
+    select:disabled {
+        cursor: default;
+    }
+
+    button:disabled {
+        cursor: default;
+    }
+
+    input[type="submit"]:disabled {
+        cursor: default;
+    }
+
+    input[type="image"]:disabled {
+        cursor: default;
+    }
+
+    input[type="button"]:disabled {
+        cursor: default;
+    }
+
+input[type="file"]:disabled {
+    cursor: default;
+}
+
+input[type="checkbox"]:disabled + label {
+    cursor: default;
+}
+
+input[type="radio"]:disabled + label {
+    cursor: default;
+}
+
+@media (max-width: 480px) {
+    input[type='radio'] {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (min-width: 481px) {
+    input[type='radio'] {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+input[type="radio"] + label {
+    font-size: 14px;
+    cursor: pointer;
+    padding-left: 6px;
+}
+
+@media (max-width: 480px) {
+    input[type="radio"] + label {
+        vertical-align: top;
+    }
+}
+
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+    input[type="radio"] + label {
+        vertical-align: middle;
+    }
+}
+
+.ChkCommonStyle {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+    .ChkCommonStyle input {
+        width: 16px;
+        height: 16px;
+        margin: 0px 6px 0px 0px;
+    }
+
+.DisableCursorStyle {
+    cursor: default;
+}
+
+.DisplayNone {
+    display: none;
+}
+
+.AlignRight {
+    text-align: right;
+}
+
+.AlignCenter {
+    text-align: center;
+}
+
+.FloatLeft {
+    float: left;
+}
+
+.FloatRight {
+    float: right;
+}
+
+
+.TooltipLbl {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+.DialogInnerDiv {
+    overflow: hidden !important;
+    padding: 4px 10px !important;
+    text-align: center;
+    height: 70px !important;
+}
+
+.DialogStyle {
+    border: 0.5px solid rgb(0,113,188) !important;
+    font-size: 18px;
+    border-radius: 6px;
+    color: rgb(75,75,75);
+    background-color: white;
+    width: 70px !important;
+    height: 70px !important;
+}
+
+.DisplayBlock {
+    display: block;
+}
+
+.DisplayInlineBlock {
+    display: inline-block;
+}
+
+.GrayLabel {
+    background-color: rgba(230, 230, 230, 1);
+    font-size: 13px;
+    display: inline-block;
+    line-height: 24px;
+    height: 22px;
+    padding: 0px 4px;
+    cursor: pointer;
+}
+
+.PlusImgBtnGray {
+    border: none;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    background-color: rgba(230, 230, 230, 1);
+    display: block;
+}
+
+.DatePickerBtn {
+    padding: 2px;
+    display: block;
+}
+
+.CrossBtnGray {
+    border: none;
+    color: rgb(100, 100, 100);
+    width: 22px;
+    line-height: 18px;
+    height: 22px;
+    background-color: rgba(230, 230, 230, 1);
+    margin-left: -8px;
+    cursor: pointer;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+    .CrossBtnGray {
+        line-height: 20px;
+    }
+}
+
+.TextboxStyle {
+    /*height: 28px !important;*/
+    font-size: 13px !important;
+    background-color: rgb(255,255,255) !important;
+    padding-left: 3px !important;
+    padding-right: 2px !important;
+    border-radius: 2px !important;
+    caret-color: black;
+}
+
+.KensaKuTextboxStyle {
+    font-size: 13px !important;
+    background-color: rgb(255,255,255) !important;
+    padding-left: 3px !important;
+    padding-right: 2px !important;
+    border-radius: 4px !important;
+    display: inline-block !important;
+}
+
+.BlueBackgroundButton {
+    //line-height: 30px;
+    text-align: center;
+    border: none;
+    font-size: 14px;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    background: rgb(91, 155, 213);
+    letter-spacing: 1px;
+    padding: 6px 12px 6px 12px;
+    height: 35px !important;
+    max-height: 35px !important;
+}
+
+    .BlueBackgroundButton:hover {
+        background: rgba(0,113,188,1);
+    }
+
+.DisableBlueBackgroundButton {
+    line-height: 30px;
+    text-align: center;
+    border: none;
+    font-size: 13px;
+    border-radius: 6px;
+    color: rgb(192,192,192);
+    background: rgba(41, 171, 226, 1);
+}
+
+.WhiteBackgroundButton {
+    line-height: 30px;
+    color: rgb(41, 171, 226);
+    text-align: center;
+    font-size: 13px;
+    border: none;
+    background-color: transparent;
+}
+
+    .WhiteBackgroundButton:hover {
+        color: rgba(0,113,188,1);
+    }
+
+.RedBackgroundButton {
+    line-height: 30px;
+    text-align: center;
+    border: none;
+    font-size: 13px;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    background: rgba(255, 0, 0, 1);
+}
+
+    .RedBackgroundButton:hover {
+        background: rgba(230, 0, 0, 1);
+    }
+
+.DateArrowButton {
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    color: gray;
+    padding: 0px;
+    margin: 0px 1px;
+    color: rgb(75, 75, 75);
+    background-color: transparent;
+}
+
+.PagingButton {
+    color: rgb(46,152,255);
+    margin: 0px;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 17px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+    .PagingButton:hover {
+        text-decoration: none;
+    }
+
+.btn-search-info {
+    width: 95px;
+    line-height: 15px !important;
+    padding-top: 0.2rem !important;
+    padding-bottom: 0.2rem !important;
+    border: 0.5px solid #9b9b9b !important;
+    background-color: white !important;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    padding: 7px;
+}
+
+    .btn-search-info:hover {
+        background-color: rgba(205,224,255,0.2) !important;
+    }
+
+.btn-update-info {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 18px;
+    padding: 3px 12px;
+    height: 28px;
+    border: 1px solid transparent;
+    background-color: rgba(124,183,227,1);
+    border-radius: 4px;
+    text-decoration: none !important;
+}
+
+    .btn-update-info:hover {
+        background-color: rgba(191,219,241,1) !important;
+    }
+
+.btn-reset {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1;
+    padding: 6.5px 12px;
+    font-size: 13px;
+    background-color: white;
+    border: 1px solid rgba(124,183,227,1);
+    color: rgba(124,183,227,1);
+    border-radius: 4px;
+}
+
+    .btn-reset:hover {
+        background-color: rgba(205,224,255,0.2) !important;
+    }
+
+.btn-fusen-detail {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1;
+    padding: 6.5px 12px;
+    font-size: 13px;
+    background-color: white;
+    border: 0.5px solid #9b9b9b !important;
+    color: rgb(75, 75, 75);
+    border-radius: 4px;
+}
+
+    .btn-fusen-detail:hover {
+        background-color: rgba(205,224,255,0.2) !important;
+    }
+
+.PageNumberCol {
+    line-height: 15px;
+}
+
+    .PageNumberCol .PagingButton {
+        margin-left: -2px;
+    }
+
+/* for Crome hack */
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+    .PageNumberCol .PagingButton {
+        margin-left: 0px;
+    }
+}
+
+.PageChangeBtn {
+    margin: 0px 2px;
+}
+
+.TitleLabel {
+    font-size: 18px !important;
+    font-weight: 600;
+    color: rgb(75,75,75);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+    text-align: left;
+    line-height: 22px;
+    margin-left:20px;
+}
+
+.TitleLabelCenter {
+    font-size: 18px !important;
+    font-weight: 600;
+    color: rgb(75,75,75);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    line-height: 22px;
+    text-align: center;
+    width: 100%;
+}
+
+.PopupCloseBtn {
+    background-color: white;
+    padding: 0px;
+    border: none;
+    float: right;
+    width: 53px;
+    font-size: 21px;
+    height: 48px;
+    line-height: 26px;
+    color: rgb(75,75,75) !important;
+    margin-top: -56px;
+    margin-right: 10px;
+}
+
+    .PopupCloseBtn:hover {
+        background: rgba(230, 230, 230, 1);
+        color: white !important;
+    }
+
+.Borderline {
+    border-bottom: 8px solid rgb(230, 230, 230);
+    margin: 0px 0px 10px 0px;
+}
+
+.MenuClearBtn {
+    margin: 106px 0px 0px 5px;
+    width: 70px;
+    height: 27px;
+    text-align: center;
+    border: none;
+    font-size: 13px;
+    border-radius: 6px;
+    color: rgb(255,255,255);
+    background-color: rgb(180,180,180);
+}
+
+    .MenuClearBtn:hover {
+        background: rgb(150,150,150);
+    }
+
+.FileUpload {
+    width: 0px;
+    height: 0px;
+}
+
+.divImgUpload {
+    max-width: 126px;
+    max-height: 127px;
+}
+
+.UserInputWrapper {
+    overflow: hidden;
+    position: relative;
+    height: 133px;
+    width: 132px;
+    text-align: center;
+    display: block;
+    border: 0.5px solid rgb(155, 155, 155);
+    padding-top: 1px;
+}
+
+.FileInput {
+    width: 124px;
+    height: 127px;
+    margin: 0px 0px 0px -124px;
+    z-index: 99;
+    /*This makes the button huge.*/
+    font-size: 0px;
+    /*Opacity settings for all browsers*/
+    opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    cursor: pointer;
+}
+
+.LblErrorMessage {
+    color: #FF0000;
+    font-size: 11px;
+}
+
+.PopupModalBackground {
+    background-color: Gray;
+    filter: alpha(opacity=50);
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+}
+
+.PopupScrollDiv {
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.NyuryokuIframe {
+    width: 0px;
+    height: 0px;
+    border-width: 0px !important;
+    border-radius: 20px;
+}
+
+.RadiusIframe {
+    border-radius: 20px;
+}
+
+@media (max-width: 480px) {
+    .MobileIframe {
+        border-radius: 0px !important;
+    }
+}
+
+.NyuryokuCheckbox {
+    font-size: 10pt;
+}
+
+    .NyuryokuCheckbox input[type='checkbox'] {
+        width: 20px;
+        height: 20px;
+        background: white;
+        margin-left: 0px;
+        line-height: 19px;
+        padding-left: 2px;
+    }
+
+.NyuryokuTitleLbl {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(75,75,75);
+    margin: 5px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 22px;
+}
+
+.CrossBtn {
+    border: none;
+    width: 17px;
+    font-size: 11px;
+    height: 22px;
+    color: lightgray;
+    background-color: rgb(255, 255, 255);
+    margin-left: -19px;
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .CrossBtn {
+        font-size: 14px !important;
+    }
+}
+
+.SearchBtnStyle {
+    font-size: 11px !important;
+}
+
+.SearchBtnImgStyle {
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+
+.BackDiv {
+    background-color: rgb(249, 247, 245);
+    min-width: fit-content;
+}
+
+.GridRow:hover {
+    background-color: rgb(235, 235, 245) !important;
+}
+
+/***************************編集可能なドロップダウン *************************************/
+.select-editable {
+    position: relative;
+    background-color: white;
+    border: solid #9b9b9b 1px;
+    min-width: 59px;
+    max-width: 59px;
+    height: 25px;
+    cursor: text;
+}
+
+    .select-editable .user_select {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-size: 13px;
+        border: none;
+        width: 54px;
+        margin: 0;
+    }
+
+    .select-editable .txtTani {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 38px;
+        padding: 1px;
+        font-size: 13px;
+        border: none;
+        caret-color: black;
+        padding-top: 2px;
+    }
+
+    .select-editable select:focus, .select-editable input:focus {
+        outline: none;
+    }
+
+/***************************MessageBox Style *************************************/
+
+.custom-dialog-1 .ui-widget-header {
+    border: 1px solid #dddddd;
+    background: #0071BC;
+    color: white !important;
+    font-weight: bold;
+}
+
+.ui-dialog {
+    z-index: 1000000000000;
+}
+
+    .ui-dialog .ui-dialog-title {
+        font-size: 14px;
+        color: white;
+        text-align: left;
+        padding-left: 2px;
+    }
+
+    .ui-dialog .ui-dialog-titlebar-close {
+        float:right;
+        background-image: url("../Img/ConfirmMessage.png");
+        background-position: -96px -127px;
+        border-radius: 3px;
+        border: 1px solid rgba(153,153,153,1) !important;
+    }
+
+.ui-dialog-titlebar-close:hover.ui-dialog-titlebar-close,
+.ui-dialog-titlebar-close:focus .ui-dialog-titlebar-close {
+    background-image: url("../Img/ConfirmMessage.png");
+    background-position: -96px -127px;
+}
+
+.ui-dialog-titlebar-close:hover {
+    background: #007FFF;
+    color: white;
+  
+}
+
+.ui-dialog-titlebar-close:focus {
+    border: 1px solid #cccccc;
+    font-weight: normal;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+    padding: 7px 5px 0.25em 4px !important;
+    border-top: 1px solid #c5c5c5;
+    text-align: center !important;
+    height:50px !important;
+}
+
+    .ui-dialog .ui-dialog-buttonpane button {
+        margin: 5px 5px 5px 5px !important;
+        border-radius: 3px;
+        border: 1px solid rgba(153,153,153,1) !important;
+        font-size: 13px;
+        height: 28px !important;
+        width: 93px;
+        line-height: 14px;
+        font-family: "Hiragino Sans", "Open Sans", "Meiryo", "Hiragino Kaku Gothic Pro", "メイリオ", "MS ゴシック", "sans-serif";
+    }
+
+/* for Crome hack */
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+    .ui-dialog .ui-dialog-buttonpane button {
+        width: 81px;
+    }
+}
+
+.custom-dialog-1 .ui-dialog-buttonpane button:hover {
+    /*background: #007FFF;*/
+    color: white
+}
+
+/*.ui-dialog-buttonpane button:focus {
+    border: 1px solid #cccccc;
+    font-weight: normal;
+}*/
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+    float: none !important;
+}
+
+.ui-icon,
+.ui-widget-content .ui-icon {
+    background-image: none;
+}
+
+.ui-widget-header .ui-icon {
+    background-image: none;
+}
+
+.ui-button .ui-icon {
+    background-image: none;
+}
+
+.ui-state-hover .ui-icon,
+.ui-state-focus .ui-icon,
+.ui-button:hover .ui-icon,
+.ui-button:focus .ui-icon,
+.ui-state-default .ui-icon {
+    background-image: none;
+}
+
+.ui-state-active .ui-icon,
+.ui-button:active .ui-icon {
+    background-image: none;
+}
+
+.ui-state-highlight .ui-icon,
+.ui-button .ui-state-highlight.ui-icon {
+    background-image: none;
+}
+
+.ui-state-error .ui-icon,
+.ui-state-error-text .ui-icon {
+    background-image: none;
+}
+
+/******** 日付変更 **********/
+.ChangeWeekButton {
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    height: 13px;
+    width: 22px;
+    margin-left: 15px;
+}
+
+.ChangeWeekLeftButton {
+    margin-left: 0px;
+}
+
+.ChangeWeekRightButton {
+    margin-left: 7px;
+}
+
+.ChangeTodayButton {
+    border: none;
+    font-size: 14px;
+    background-color: transparent;
+    color: rgb(50,50,50);
+}
+
+/* for Crome hack */
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+    .ChangeTodayButton {
+        margin-left: 7px;
+        margin-right: 0px;
+    }
+}
+
+.ChangeDayButton {
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    height: 13px;
+    width: 11px;
+}
+
+/* for Crome hack */
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+    .ChangeDayButton {
+        margin-left: 7px;
+    }
+}
+
+/************ Scroll Bar *************/
+.CustomScroll ::-webkit-scrollbar {
+    height: 4px;
+    background-color: rgb(230, 230, 230);
+}
+
+@media (max-width: 480px) {
+    .CustomScroll ::-webkit-scrollbar {
+        width: 10px;
+    }
+}
+
+@media (min-width: 481px) {
+    .CustomScroll ::-webkit-scrollbar {
+        width: 4px;
+    }
+}
+
+.CustomScroll ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: rgb(190,190,190);
+}
+
+.CustomScroll ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 1px;
+    background-color: rgb(241,241,241);
+}
+
+/****************************選択ポップアップ*****************************/
+
+.SentakuDiv {
+    width: 350px;
+    height: 335px;
+    background-color: #FFFFFF;
+    box-sizing: content-box;
+    border-width: 0px !important;
+}
+
+.SentakuHeaderDiv {
+    height: 50px;
+    width: 95% !important;
+}
+
+.SentakuTitleLbl {
+    font-size: 20px;
+    color: rgb(75,75,75);
+    font-weight: bold;
+}
+
+.SentakuHeaderLbl {
+    line-height: 23px;
+    height: 20px;
+    margin: 16px 0px 10px 24px;
+    float: left;
+}
+
+@media (max-width: 480px) {
+    .SentakuPopupCloseBtn {
+        font-size: 24px !important;
+    }
+}
+
+.SentakuPopupCloseBtn {
+    background-color: white;
+    padding: 0px;
+    border: none;
+    float: right;
+    width: 33px;
+    font-size: 18px;
+    line-height: 23px;
+    height: 38px;
+    color: rgb(75,75,75) !important;
+    margin-top: 5px;
+    margin-right: -4px;
+}
+
+    .SentakuPopupCloseBtn:hover {
+        background: rgba(230, 230, 230, 1);
+        color: white !important;
+    }
+
+.SentakuListContainer {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+    .SentakuListContainer ::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+        background-color: rgb(230, 230, 230);
+    }
+
+    .SentakuListContainer ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: rgb(190,190,190);
+    }
+
+    .SentakuListContainer ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 1px;
+        background-color: rgb(241,241,241);
+    }
+
+.Borderline2 {
+    border-bottom: 0.5px solid rgb(230, 230, 230);
+}
+
+.SentakuTxtKensakuDiv {
+    margin: 10px 7px 5px 7px;
+    height: 23px;
+    border: 0.5px solid rgb(155,155,155);
+    padding-top: 2%;
+    box-sizing: content-box;
+    border-radius: 7px;
+}
+
+.SentakuImgKensaku {
+    height: 80%;
+    width: 6%;
+    margin-left: 2%;
+    display: inline-block;
+    float: left;
+    margin-top: -0.5%;
+}
+
+.SentakuTxtKensaku {
+    width: 88%;
+    margin-left: 10%;
+    height: 80%;
+    font-size: 13px;
+    border-style: none !important;
+    display: inline-block;
+    margin-top: -17px;
+    float: left;
+    color: rgb(75,75,75) !important;
+}
+
+.SentakuList {
+    height: 188px;
+    margin: 5px;
+    overflow-y: auto;
+    box-sizing: content-box;
+}
+
+.SentakuListNoNewPlusBtn {
+    margin-bottom: 15px !important;
+    height: 219px !important;
+}
+
+.SentakuNameLbl {
+    line-height: 14px;
+    margin-left: 5px;
+    width: 273px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.UserNameLbl {
+    line-height: 14px;
+    margin-left: 5px;
+    width: 273px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    cursor: default;
+}
+
+.SentakuEditButton {
+    width: 16px;
+    height: 16px;
+    border: none;
+    vertical-align: middle;
+    margin-bottom: 7px;
+}
+
+.SentakuFooter {
+    margin: 10px 0px 12px 0px;
+}
+
+.SentakuPlusBtnNew {
+    border: none;
+    line-height: 20px;
+    background-color: transparent;
+    color: rgb(155, 155, 155);
+    font-size: 13px;
+}
+
+    .SentakuPlusBtnNew:hover {
+        background: rgb(150,150,150);
+        color: white !important;
+    }
+
+/*************************/
+
+.LogoImg {
+    width: 200px;
+    height: 156px !important;
+}
+
+.ChkQuickSearch {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+    .ChkQuickSearch input {
+        width: 18px;
+        height: 18px;
+        margin: 0px 6px 0px 0px;
+    }
+
+    .ChkQuickSearch label {
+        position: absolute;
+    }
+
+.GridHeaderUnderLine {
+    border-bottom: 1px solid rgb(155, 155, 155);
+}
+
+.DefaultBtn {
+    width: 0;
+    height: 0;
+    border: none;
+    opacity: 0;
+    position: absolute;
+}
+
+.HiddenDiv {
+    width: 0px;
+    height: 0px;
+}
+
+.HiddenTxt {
+    width: 0px;
+    height: 0px;
+    padding: 0;
+    border: 0 !important;
+}
+
+.ExpireDateLabel {
+    color: white;
+}
+
+.ExpireDateLabelMargin {
+    margin-left: 5px;
+}
+
+.vertical_align_top {
+    vertical-align: top !important;
+}
+
+
+/*---------------お知らせメッセージのスタイル---------------*/
+
+.NotiMsgDiv {
+    background-color: #00b050;
+    text-align: center;
+    height: 35px;
+    margin: auto;
+    border-radius: 7px;
+    z-index: 10009;
+    top: 45px;
+    left: 10px;
+    right: 10px;
+    position: absolute;
+}
+
+.NotiCloseBtn {
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    border: none;
+    height: 33px;
+    float: right;
+    margin-right: 12px;
+    padding: 0;
+}
+
+.NotiLbl {
+    color: #fff;
+    font-size: 14pt;
+    line-height: 33px;
+    display: inline-block;
+    text-align: right;
+}
+
+/*---------------スマホ用のスタイル---------------*/
+
+@media (max-width: 480px) {
+    .MobileImgBtnFilterStyle {
+        vertical-align: middle;
+        height: 24px;
+        width: 24px;
+        float: right;
+        margin: 1px 0 0 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .MobileKensaKuTextboxStyle {
+        width: calc(100vw - 80px) !important;
+        max-width: calc(100vw - 80px) !important;
+        height: 30px !important;
+        font-size: 13px !important;
+        background-color: rgb(255,255,255) !important;
+        padding-left: 3px !important;
+        padding-right: 2px !important;
+        display: inline-block !important;
+        margin-bottom: 20px;
+    }
+}
+
+.MobileSentakuHeaderDiv {
+    height: 50px;
+    width: 97% !important;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.MobilePopupMargin {
+    padding: 20px 25px 0px 25px;
+}
+
+.MobileOverlay {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow: hidden;
+}
+
+@media (max-width: 480px) {
+    .MobileMarginBottom {
+        margin-bottom: 20px;
+        text-decoration: none !important;
+    }
+}
+
+.ui-datepicker-week-end:nth-child(7), table.ui-datepicker-calendar td.ui-datepicker-week-end:nth-child(7) a {
+    background: #E9F6FE;
+}
+
+.ui-datepicker-week-end:nth-child(1), table.ui-datepicker-calendar td.ui-datepicker-week-end:nth-child(1) a {
+    background: #FDF1F1;
+}
+
+.ui-datepicker-current-day {
+    background: #89B92C;
+}
+
+.ui-datepicker-today a.ui-state-highlight {
+    border-color: #d3d3d3;
+    color: red;
+}
+
+.ui-datepicker-today.ui-datepicker-current-day a.ui-state-highlight {
+    border-color: #aaaaaa;
+    color: red;
+}
+
+.success {
+    -webkit-animation: seconds 1.0s forwards;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-delay: 5s;
+    animation: seconds 1.0s forwards;
+    animation-iteration-count: 1;
+    animation-delay: 5s;
+    position: fixed;
+    bottom: 0;
+}
+
+@-webkit-keyframes seconds {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        left: -9999px;
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+@keyframes seconds {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        left: -9999px;
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+
+.GridPager a, .GridPager span {
+    margin-top:20px;
+    display: block;
+    height: 20px;
+    width: 25px;
+}
+
+.GridPager a {
+    display: block;
+    color: #000;
+    vertical-align:middle;
+    text-decoration:none;
+    margin-bottom:2px;
+}
+
+.GridPager a:hover {
+    text-decoration: none;
+}
+
+.GridPager span {
+    display: block;
+    color: #000;
+    text-decoration: underline;
+    vertical-align: middle;
+    font-weight:bold;
+}
+
+input[type="search"] {
+    font-family: "Hiragino Sans", "Open Sans", "Meiryo", "Hiragino Kaku Gothic Pro", "メイリオ", "MS ゴシック", "sans-serif";
+    border: 1px solid #9b9b9b;
+}
+
+    input[type="search"]::-webkit-search-cancel-button {
+        -webkit-appearance: none;
+        height: 1em;
+        width: 1em;
+        border-radius: 50em;
+        background: url('../Img/times-circle.svg') no-repeat 50% 50%;
+        background-size: contain;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+input[type="search"]:focus::-webkit-search-cancel-button {
+    opacity: .3;
+    pointer-events: all;
+}
+
+input[type="search"]:hover::-webkit-search-cancel-button {
+    opacity: .3;
+    pointer-events: all;
+}
+
+.dragBtn {
+    background-color: rgb(242, 242, 242);
+    width: 30px;
+    height: 28px;
+    cursor: move;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    border-radius: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    user-select: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown1:hover {
+    background-color: rgb(46,117,182);
+}
+
+.dropdown1 
+{
+    margin-left:6px;
+    margin-right:6px;
+    color:white;
+}
+
+.font {
+    font-family: "Hiragino Sans", "Open Sans", "Meiryo", "Hiragino Kaku Gothic Pro", "メイリオ", "MS ゴシック", "sans-serif";
+    font-size: 13px;
+}
+
+.LoginFont {
+    font-family: "Hiragino Sans", "Open Sans", "Meiryo", "Hiragino Kaku Gothic Pro", "メイリオ", "MS ゴシック", "sans-serif";
+    font-size: 15px;
+}
+
+.error {
+    font-family: "Hiragino Sans", "Open Sans", "Meiryo", "Hiragino Kaku Gothic Pro", "メイリオ", "MS ゴシック", "sans-serif";
+    font-size: 11px;
+    color: red;
+}
+
+.input {
+    -webkit-background-clip: text !important;
+}
+
+.logo {
+    width: 140px;
+    height: 156px;
+}
+
+.LoginTextboxStyle {
+    font-size: 15px !important;
+    background-color: rgb(255,255,255) !important;
+    padding-left: 3px !important;
+    padding-right: 2px !important;
+    border-radius: 4px !important;
+    caret-color: black;
+}
+
+body {
+    background-color: #d7e4f2;
+}
+
