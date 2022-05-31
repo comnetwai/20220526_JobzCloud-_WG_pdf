@@ -14,7 +14,7 @@ namespace jobzcolud
         protected void Page_Load(object sender, EventArgs e)
         {
             ///yuwah
-            ///maythu
+            ///maythu 123456
             if (!IsPostBack)
             {
                 if (DBUtilitycs.Server == "")
